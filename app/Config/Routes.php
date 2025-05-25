@@ -5,6 +5,7 @@ use App\Controllers\Auth;
 use App\Controllers\Home;
 use App\Controllers\AdminDashboard;
 use App\Controllers\Announcement;
+use App\Controllers\Member;
 
 /**
  * @var RouteCollection $routes
@@ -27,20 +28,16 @@ $routes->get('/logout', [Auth::class, 'logout']);
 $routes->get('/otp', [Auth::class, 'otp']);
 $routes->post('/verify-otp', [Auth::class, 'verifyOtp']); // remind me about this
 
-
-/*Member model*/
-$routes->get('/psits-members', 'Member::psitsMembers');
-$routes->get('/delete/(:any)', 'Member::delete/$1');
-$routes->get('/addMember', 'Member::AddMember');
-$routes->post('/adding', 'Member::adding');
-$routes->get('/updateMember/(:any)', 'Member::updateMember/$1');
-$routes->post('/updating', 'Member::updating');
-
-$routes->get('approve/(:num)', 'Member::approveUser/$1');
-$routes->get('/pendingMember', 'Member::pendingMember');
-$routes->get('/membership', 'Member::membership');
+// Member Routes (PSITS Members)
+$routes->get('/psits-members', [Member::class, 'psitsMembers']);
+$routes->get('/delete/(:any)', [Member::class, 'deleteMember/$1']);
+$routes->get('/addMember', [Member::class, 'addMember']);
+$routes->post('/adding', [Member::class, 'addingMember']);
+$routes->get('/updateMember/(:any)', [Member::class, 'updateMember/$1']);
+$routes->post('/updating', [Member::class, 'updating']);
+$routes->get('/approve/(:num)', [Member::class, 'approveMember/$1']);
+$routes->get('/pendingMember', [Member::class, 'pendingMember']);
+$routes->get('/membership', [Member::class, 'membership']);
 
 /*Pending model*/
 $routes->post('/processMembership', 'Pending::ProcessMembership');
-
-// TODO: fix /membership
