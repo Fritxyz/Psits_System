@@ -6,10 +6,18 @@ use App\Models\PendingModel;
 
 class Member extends BaseController
 {
+    private $memberModel;
+    private $pendingModel;
+
+    public function __construct()
+    {
+        $this->memberModel = new MemberModel();
+        $this->pendingModel = new PendingModel();
+    }
+
     public function psitsMembers()
     {
-        $mm = new MemberModel();
-        $data['psits_members'] = $mm->findAll();
+        $data['psits_members'] = $this->memberModel->findAll();
         return view('psits-members', $data);
     }
 
@@ -18,7 +26,6 @@ class Member extends BaseController
         helper(['form']);
         return view('membership');
     }
-
 
     public function pendingMember()
     {
@@ -31,22 +38,18 @@ class Member extends BaseController
 
      public function pendingUsers()
     {
-        $pendingUserModel = new PendingModel();
-        $data['users'] = $pendingUserModel->findAll();
+        $data['users'] = $this->pendingModel->findAll();
         return view('admin/pending_users', $data);
     }
 
     public function approveUser($id)
     {
-        $pending = new PendingModel();
-        $member = new MemberModel();
-
         // Fetch user data from pending_users
-        $user = $pending->find($id);
+        $user = $this->pendingModel->find($id);
 
         if ($user) {
             // Insert into the main users table
-            $member->save([
+            $this->memberModel->save([
                 'member-lastname' => $user['pending_lastname'],
                 'member-firstname' => $user['pending_firstname'],
                 'member-middlename' => $user['pending_middlename'],
@@ -62,18 +65,15 @@ class Member extends BaseController
             ]);
 
             // Delete from pending_users
-            $pending->delete($id);
+            $this->pendingModel->delete($id);
         }
 
         return redirect()->to('pendingMember')->with('success', 'Member approved successfully');
     }
 
-   
-
     public function delete($id = null)
     {
-        $mm = new MemberModel();
-        $mm->delete($id);
+        $this->memberModel->delete($id);
         session()->setFlashdata('delete', 'Deleted successfully');
         return redirect()->to('/psits-members');
     }
@@ -99,7 +99,6 @@ class Member extends BaseController
       $memberAge = $this->request->getVar('member-age');
       $id = $this->request->getVar('id');
 
-      $mm = new MemberModel();
       $data = [
           'member-lastname' => $memberName,
           'member-gender' => $memberGender,
@@ -115,7 +114,7 @@ class Member extends BaseController
           'member-age' => $memberAge,
          
       ];
-      $mm->insert($data);
+      $this->memberModel->insert($data);
       
       session()->setFlashdata('success', 'Added successfully');
       return redirect()->to('/psits-members');
@@ -124,8 +123,7 @@ class Member extends BaseController
     
     public function updateMember($id = null)
     {
-        $mm = new MemberModel();
-        $data['psits_members'] = $mm->find($id);
+        $data['psits_members'] = $this->memberModel->find($id);
         return view('updateMember', $data);
     }
 
@@ -141,7 +139,6 @@ class Member extends BaseController
       $memberIdNumber = $this->request->getVar('member-id-number');
       $id = $this->request->getVar('id');
 
-      $mm = new MemberModel();
       $data = [
           'member-lastname' => $memberName,
           'member-gender' => $memberGender,
@@ -153,11 +150,11 @@ class Member extends BaseController
           'member-id-number' => $memberIdNumber,
          
       ];
-      $mm->update($id,$data);
+
+      $this->memberModel->update($id,$data);
       
       session()->setFlashdata('success', 'Updated successfully');
       return redirect()->to('/psits-members');
-
     }
 
 }  

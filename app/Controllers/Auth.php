@@ -131,6 +131,8 @@ class Auth extends BaseController
         return view('otp');
     }
 
+    // todo: clean code
+
     public function verifyOtp()
     {
         $user_model = new UserModel();

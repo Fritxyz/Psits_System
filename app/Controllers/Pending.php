@@ -6,16 +6,16 @@ use App\Models\PendingModel;
 
 class Pending  extends BaseController
 {
+    private $pendingModel;
 
-
-     
-    
+    public function __construct()
+    {
+        $this->pendingModel = new PendingModel();
+    }
 
     public function ProcessMembership()
     {
-         helper(['form']);
-
-        $pending = new PendingModel();
+        helper(['form']);
 
         if (strlen($this->request->getPost('password')) < 8) {
             return redirect()->back()->with('error', 'Password must be at least 8 characters long.');
@@ -55,12 +55,9 @@ class Pending  extends BaseController
             'pending_gmail'         => $this->request->getPost('gmail'),
         ];
 
-        $pending->save($data);
+        $this->pendingModel->save($data);
 
         return redirect()->to('/login')->with('success', 'Registration successfully, Wait for approval!');
-    
     }
-
-   
 }
 
