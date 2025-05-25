@@ -59,8 +59,6 @@ class Member extends BaseController
                 'member-contact'=> $user['pending_contact'],
                 'member-address'  =>   $user['pending_address'],
                 'member-id-number'=>  $user['pending_Idnumber'],
-
-                
             ]);
 
             // Delete from pending_users

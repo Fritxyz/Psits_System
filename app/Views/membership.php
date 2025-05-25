@@ -124,7 +124,7 @@
                                                     </div>
                                                     <div class="col">
                                                         <label for="" class="form-label">Username:</label>
-                                                        <input type="text" class="form-control" id="" name="username" value="<?= set_value('username') ?>" required>
+                                                        <input type="text" class="form-control" id="username" name="username" value="<?= set_value('username') ?>" required>
                                                     </div>
                                                     
                                                 </div>

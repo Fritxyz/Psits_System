@@ -6,6 +6,13 @@ use App\Models\UserModel;
 
 class Auth extends BaseController
 {
+    private $userModel;
+
+    public function __construct()
+    {
+        $this->userModel = new UserModel();
+    }
+
     public function login()
     {
         return view('login');
@@ -18,7 +25,7 @@ class Auth extends BaseController
         $password = $this->request->getPost('password');
         
         // Validation
-        $validation = \Config\Services::validation();
+        $validation = service('validation');
         $validation->setRules([
             'email' => 'required|valid_email',
             'password' => 'required'
@@ -29,8 +36,7 @@ class Auth extends BaseController
         }
         
         // Check user credentials
-        $userModel = new UserModel();
-        $user = $userModel->where('data-user-email', $email)->first();
+        $user = $this->userModel->where('data-user-email', $email)->first();
         
         if (!$user) {
             return redirect()

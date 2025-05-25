@@ -21,7 +21,7 @@ class Pending  extends BaseController
             return redirect()->back()->with('error', 'Password must be at least 8 characters long.');
         }
 
-        if (strlen($this->request->getPost('password')) < 8) {
+        if (strlen($this->request->getPost('Idnumber')) === 7) {
             return redirect()->back()->with('error', 'Password must be at least 8 characters long.');
         }
         

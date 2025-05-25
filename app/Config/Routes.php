@@ -4,6 +4,7 @@ use CodeIgniter\Router\RouteCollection;
 use App\Controllers\Auth;
 use App\Controllers\Home;
 use App\Controllers\AdminDashboard;
+use App\Controllers\Announcement;
 
 /**
  * @var RouteCollection $routes
@@ -12,8 +13,10 @@ use App\Controllers\AdminDashboard;
 // Admin Routes (PSITS Members)
 $routes->get('/', [Home::class, 'index']);
 $routes->get('/psits-dashboard', [AdminDashboard::class, 'psitsDashboard']);
-$routes->get('/announcement', [AdminDashboard::class, 'announcement']);
-$routes->post('/add-announcement', [AdminDashboard::class, 'addAnnouncement']); // remind me about this
+
+// Annoucement Routes
+$routes->get('/announcement', [Announcement::class, 'announcement']);
+$routes->post('/add-announcement', [Announcement::class, 'addAnnouncement']); // remind me about this
 
 // Auth Routes
 $routes->get('/register', 'Home::register');

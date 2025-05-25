@@ -40,3 +40,24 @@ in APPPATH\Views\membership.php on line 41.
  9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Kieth\\Downloads\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-25 16:56:42 --> Error: Class "App\Controllers\AnnouncementModel" not found
+[Method: GET, Route: announcement]
+in APPPATH\Controllers\Announcement.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Announcement->announcement()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Announcement))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Kieth\\Downloads\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-25 17:01:05 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\AnnouncementModel::addAnnouncement
+[Method: POST, Route: add-announcement]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Announcement.php(42): CodeIgniter\Model->__call('addAnnouncement', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Announcement->addAnnouncement()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Announcement))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Kieth\\Downloads\\Psits_System\\public\\index.php')

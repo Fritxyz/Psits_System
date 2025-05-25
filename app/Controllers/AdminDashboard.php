@@ -2,20 +2,27 @@
 
 namespace App\Controllers;
 
-use App\Models\AnnouncementModel;
+
 use App\Models\PendingModel;
 use App\Models\MemberModel;
 
 class AdminDashboard extends BaseController
 {
-    public function psitsDashboard(): string
+    private $pendingModel;
+    private $memberModel;
+
+    public function __construct()
     {
-        $memberModel = new MemberModel();
-        $pendingUserModel = new PendingModel();
-        $pendingdata['pendingCount'] = $pendingUserModel->countAllResults();
+        $this->pendingModel = new PendingModel();
+        $this->memberModel = new MemberModel();
+    }
+
+    public function psitsDashboard()
+    {
+        $pendingdata['pendingCount'] = $this->pendingModel->countAllResults();
 
         // Fetch grade level data with count
-        $gradeLevelData = $memberModel->select('member-gradelevel, COUNT(*) as total')
+        $gradeLevelData = $this->memberModel->select('member-gradelevel, COUNT(*) as total')
                             ->groupBy('member-gradelevel')
                             ->findAll();
 
@@ -61,41 +68,5 @@ class AdminDashboard extends BaseController
         ];
 
         return view('psits-dashboard', array_merge($data, $pendingdata));
-    }
-
-    public function announcement()
-    {
-        // $announcementModel = new AnnouncementModel();
-
-        // // Fetch pending announcements from the model
-        // $getPendingAnnouncements = $announcementModel->getPendingAnnouncements();
-
-        // // Pass the announcements to the view
-        // return view('announcement', ['getPendingAnnouncements' => $getPendingAnnouncements]);
-        
-        $announcementModel = new AnnouncementModel();
-        $data['announcements'] = $announcementModel->findAll();
-        return view('announcement', $data);
-    }
-
-    public function addAnnouncement()
-    {
-        $announcementModel = new AnnouncementModel();
-
-        $data = [
-            'title' => $this->request->getPost('title'),
-            'who' => $this->request->getPost('who'),
-            'what' => $this->request->getPost('what'),
-            'when' => $this->request->getPost('when'),
-            'where' => $this->request->getPost('where'),
-            'content' => $this->request->getPost('content'),
-            'status' => 'PENDING', // Default status
-        ];
-
-        if ($announcementModel->addAnnouncement($data)) {
-            return redirect()->to('/announcement')->with('success', 'Announcement added successfully.');
-        } else {
-            return redirect()->to('/announcement')->with('error', 'Failed to add announcement.');
-        }
     }
 }
