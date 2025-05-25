@@ -91,24 +91,18 @@
                                                             <option value="B">B</option>
                                                             <option value="C">C</option>
                                                         </select>
-                                                    </div>
-                                                    
-                                                   
+                                                    </div>                      
                                                 </div>
 
                                                 <!-- Row 3 -->
                                                 <div class="row mb-3">
-
-                                                 
-
                                                     <div class="col">
                                                         <label for="age" class="form-label">Age:</label>
                                                         <input type="number" class="form-control" id="age" name="age" value="<?= set_value('age') ?>" required>
                                                     </div>
-
                                                     
                                                     <div class="col">
-                                                 <label for="contact" class="form-label">Contact Number:</label>
+                                                        <label for="contact" class="form-label">Contact Number:</label>
                                                         <input type="text" class="form-control" id="contact" name="contact" value="<?= set_value(field: 'contact') ?>" required>
                                                     </div>
                                                     <div class="col">

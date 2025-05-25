@@ -11,6 +11,7 @@
         <link href="<?= base_url('css/styles.css') ?>" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
+
     <body class="sb-nav-fixed">
         <?php include('partials/header.php'); ?>
         <div id="layoutSidenav">
@@ -56,21 +57,57 @@
                                                 <input type="text" class="form-control" id="memberName" name="member-id-number" value="<?= $psits_members['member-id-number'] ?>" required>
                                             </div>
                                             <div class="mb-3">
+                                                <?php $selectedGender = $psits_members['member-gender'] ?>
+
                                                 <label for="memberGender" class="form-label">Gender</label>
-                                                <input type="text" class="form-control" id="memberGender" name="member-gender" value="<?=$psits_members['member-gender']?>" required>
+                                                <select class="form-control" id="member-gender" name="member-gender" required>
+                                                    <option value="" disabled <?= $selectedGender == '' ? 'selected' : '' ?> >Select gender</option>
+                                                    <option value="Male" <?= $selectedGender == 'Male' ? 'selected' : '' ?>>Male</option>
+                                                    <option value="Female" <?= $selectedGender == 'Female' ? 'selected' : '' ?>>Female</option>
+                                                    <option value="Other" <?= $selectedGender == 'Other' ? 'selected' : '' ?>>Other</option>
+                                                </select>
                                             </div>
+
                                             <div class="mb-3">
+                                                <?php $selectedCourse = $psits_members['member-course'] ?>
+
                                                 <label for="memberCourse" class="form-label">Course</label>
-                                                <input type="text" class="form-control" id="memberCourse" name="member-course" value="<?= $psits_members['member-course']?>" required>
+                                                <select class="form-control" id="member-course" name="member-course" required>
+                                                    <option value="" disabled <?= $selectedCourse == '' ? 'selected' : 'Select course' ?>>Select Course (Example: BS-COMSCI)</option>
+                                                    <option value="BS-COMSCI" <?= $selectedCourse == 'BS-COMSCI' ? 'selected' : '' ?>>BS-COMSCI</option>
+                                                    <option value="BS-INFOSYS" <?= $selectedCourse == 'BS-INFOSYS' ? 'selected' : '' ?>>BS-INFOSYS</option>
+                                                    <option value="BS-INFOTECH" <?= $selectedCourse == 'BS-INFOTECH' ? 'selected' : '' ?>>BS-INFOTECH</option>
+                                                </select>
                                             </div>
+
+                                            <!-- todo:  clean the addmember and updatemember-->
+
                                             <div class="mb-3">
+                                                <?php $selectedSection = $psits_members['member-section'] ?>        
+
                                                 <label for="memberSection" class="form-label">Section</label>
-                                                <input type="text" class="form-control" id="memberSection" name="member-section" value="<?= $psits_members['member-section']?>"  required>
+                                                <select class="form-control" id="member-section" name="member-section" required>
+                                                    <option value="" disabled <?= $selectedSection == '' ? 'selected' : '' ?>>Select Section (Example: 3A - 3 is the year level and A is the section)</option>
+                                                    <option value="A" <?= $selectedSection == 'A' ? 'selected' : '' ?>>A</option>
+                                                    <option value="B" <?= $selectedSection == 'B' ? 'selected' : '' ?>>B</option>
+                                                    <option value="C" <?= $selectedSection == 'C' ? 'selected' : '' ?>>C</option>
+                                                </select>
                                             </div>
+
                                             <div class="mb-3">
+                                                <?php $selectedGradeLevel = $psits_members['member-gradelevel'] ?>
+
                                                 <label for="memberGradeLevel" class="form-label">Grade Level</label>
-                                                <input type="text" class="form-control" id="memberGradeLevel" name="member-gradelevel" value="<?= $psits_members['member-gradelevel']?>" required>
+                                                <select class="form-control" id="member-gradelevel" name="member-gradelevel" required>
+                                                    <option value="" disabled <?= $selectedGradeLevel == '' ? 'selected' : '' ?>>Select grade level</option>
+                                                    <option value="1" <?= $selectedGradeLevel == '1' ? 'selected' : '' ?>>1</option>
+                                                    <option value="2" <?= $selectedGradeLevel == '2' ? 'selected' : '' ?>>2</option>
+                                                    <option value="3" <?= $selectedGradeLevel == '3' ? 'selected' : '' ?>>3</option>
+                                                    <option value="4" <?= $selectedGradeLevel == '4' ? 'selected' : '' ?>>4</option>
+                                                    <option value="5" <?= $selectedGradeLevel == '5' ? 'selected' : '' ?>>5 (if you're a graduate)</option>
+                                                </select>
                                             </div>
+
                                             <div class="mb-3">
                                                 <label for="memberContact" class="form-label">Contact</label>
                                                 <input type="text" class="form-control" id="memberContact" name="member-contact" value="<?= $psits_members['member-contact']?>"  required>
@@ -92,7 +129,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </main>
                 <?php include('partials/footer.php'); ?>

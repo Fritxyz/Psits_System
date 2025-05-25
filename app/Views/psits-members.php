@@ -39,14 +39,11 @@
                         <div class="card mb-4">
                         <div class="card-header">
                             <i class="fas fa-table me-1"></i>
-                                        PSITS MEMBERS
-                                 
+                                        PSITS MEMBERS   
                         </div>
                             <div class="card-body">
                                 <table id="datatablesSimple" class="table">
-                                    
-                                    <thead>
-                                        
+                                    <thead>      
                                         <tr>
                                             <!-- <th>Name</th>
                                           
@@ -124,19 +121,18 @@
                                             </td>
                                         </tr>
                                         <?php endforeach; ?>
-
                                     </tbody>
                                 </table>
+
                                 <a href="/addMember" class="btn btn-success mt-3">Add New Member</a>
-
                             </div>
-
                         </div>
                     </div>
                 </main>
                 <?php include('partials/footer.php'); ?>
             </div>
         </div>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>

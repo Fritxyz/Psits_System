@@ -38,38 +38,69 @@
                                             <label for="memberName" class="form-label">Last Name</label>
                                             <input type="text" class="form-control" id="memberName" name="member-lastname" placeholder="example :  Lauban" required>
                                         </div>
+
                                         <div class="mb-3">
                                             <label for="memberName" class="form-label">First Name</label>
                                             <input type="text" class="form-control" id="memberName" name="member-firstname" placeholder="example : Hoper  " required>
                                         </div>
+
                                         <div class="mb-3">
                                             <label for="memberName" class="form-label">Middle Name</label>
                                             <input type="text" class="form-control" id="memberName" name="member-middlename" placeholder="example :Macabla" required>
                                         </div>
+
                                         <div class="mb-3">
                                             <label for="memberName" class="form-label">Age</label>
                                             <input type="text" class="form-control" id="memberName" name="member-age" placeholder="23" required>
                                         </div>
+
                                         <div class="mb-3">
                                             <label for="memberName" class="form-label">Id Number</label>
                                             <input type="text" class="form-control" id="memberName" name="member-id-number" placeholder="example : 2250023" required>
                                         </div>
+
                                         <div class="mb-3">
                                             <label for="memberGender" class="form-label">Gender</label>
-                                            <input type="text" class="form-control" id="memberGender" name="member-gender" placeholder="example : Male" required>
+                                            <select class="form-control" id="member-gender" name="member-gender" required>
+                                                <option value="" disabled selected>Select gender</option>
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                                <option value="Other">Other</option>
+                                            </select>
                                         </div>
+
                                         <div class="mb-3">
                                             <label for="memberCourse" class="form-label">Course</label>
-                                            <input type="text" class="form-control" id="memberCourse" name="member-course" placeholder="example : BS-INFOTECH" required>
+                                            <select class="form-control" id="member-course" name="member-course" required>
+                                                <option value="" disabled selected>Select Course (Example: BS-COMSCI)</option>
+                                                <option value="BS-COMSCI">BS-COMSCI</option>
+                                                <option value="BS-INFOSYS">BS-INFOSYS</option>
+                                                <option value="BS-INFOTECH">BS-INFOTECH</option>
+                                            </select>
                                         </div>
+
                                         <div class="mb-3">
                                             <label for="memberSection" class="form-label">Section</label>
-                                            <input type="text" class="form-control" id="memberSection" name="member-section" placeholder="example : BS-INFOTECH 3A" required>
+                                            <select class="form-control" id="member-section" name="member-section" required>
+                                                <option value="" disabled selected>Select course</option>
+                                                <option value="A">A</option>
+                                                <option value="B">B</option>
+                                                <option value="C">C</option>
+                                            </select>
                                         </div>
+
                                         <div class="mb-3">
                                             <label for="memberGradeLevel" class="form-label">Grade Level</label>
-                                            <input type="text" class="form-control" id="memberGradeLevel" name="member-gradelevel" placeholder="example : 3" required>
+                                            <select class="form-control" id="member-gradelevel" name="member-gradelevel" required>
+                                                <option value="" disabled selected>Select grade level</option>
+                                                <option value="1">1st Year</option>
+                                                <option value="2">2nd Year</option>
+                                                <option value="3">3rd Year</option>
+                                                <option value="4">4th Year</option>
+                                                <option value="5">Above 4th Year</option>
+                                            </select>
                                         </div>
+
                                         <div class="mb-3">
                                             <label for="memberContact" class="form-label">Contact</label>
                                             <input type="text" class="form-control" id="memberContact" name="member-contact"placeholder="example : 09133722923"  required>
@@ -83,7 +114,8 @@
                                             <input type="text" class="form-control" id="memberContact" name="member-gmail"placeholder="example : example@gmail.com"  required>
                                         </div>
                                     </div>
-                                   <div class="d-flex justify-content-end mt-3">
+                                    
+                                    <div class="d-flex justify-content-end mt-3">
                                         <button type="submit" name="adding" class="btn" style="background-color: #198754; color: white;">Add</button>
                                     </div>
                                 </form>
