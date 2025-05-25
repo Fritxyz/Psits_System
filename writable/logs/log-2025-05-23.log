@@ -1,0 +1,175 @@
+CRITICAL - 2025-05-23 10:01:01 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 60.
+ 1 APPPATH\Views\psits-dashboard.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 60)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('psits-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 10:20:08 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 63.
+ 1 APPPATH\Views\psits-dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 63)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [...], true)
+ 5 APPPATH\Controllers\Home.php(65): view('psits-dashboard', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 10:21:48 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 63.
+ 1 APPPATH\Views\psits-dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 63)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [...], true)
+ 5 APPPATH\Controllers\Home.php(65): view('psits-dashboard', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 10:24:57 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\Psits_System\\app\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 10:24:57 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\Psits_System\\app\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 10:24:57 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\Psits_System\\app\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 10:24:58 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\Psits_System\\app\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 10:24:58 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\Psits_System\\app\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 10:25:16 --> ErrorException: Undefined variable $pendingCount
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 63.
+ 1 APPPATH\Views\psits-dashboard.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pendingCount', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 63)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [...], true)
+ 5 APPPATH\Controllers\Home.php(66): view('psits-dashboard', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 11:32:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 37.
+ 1 APPPATH\Views\updateMember.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(133): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 11:32:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 37.
+ 1 APPPATH\Views\updateMember.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(133): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 11:32:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 37.
+ 1 APPPATH\Views\updateMember.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(133): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-23 11:32:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 37.
+ 1 APPPATH\Views\updateMember.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(133): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')

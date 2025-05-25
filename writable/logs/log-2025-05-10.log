@@ -1,0 +1,208 @@
+CRITICAL - 2025-05-10 11:46:32 --> ErrorException: Undefined variable $pm
+[Method: GET, Route: psits-members]
+in APPPATH\Controllers\Member.php on line 11.
+ 1 APPPATH\Controllers\Member.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pm', 'D:\\xampp\\htdocs\\Psits_System\\app\\Controllers\\Member.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->psitsMembers()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 11:47:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "psits-member.php"
+[Method: GET, Route: psits-members]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('psits-member.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-member', [], true)
+ 3 APPPATH\Controllers\Member.php(12): view('psits-member', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->psitsMembers()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 11:47:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "psits-member.php"
+[Method: GET, Route: psits-members]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('psits-member.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-member', [], true)
+ 3 APPPATH\Controllers\Member.php(12): view('psits-member', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->psitsMembers()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 11:47:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "psits-member.php"
+[Method: GET, Route: psits-members]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('psits-member.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-member', [], true)
+ 3 APPPATH\Controllers\Member.php(12): view('psits-member', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->psitsMembers()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 11:47:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "psits-member.php"
+[Method: GET, Route: psits-members]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('psits-member.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-member', [], true)
+ 3 APPPATH\Controllers\Member.php(12): view('psits-member', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->psitsMembers()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 11:54:32 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: psits-members]
+in APPPATH\Views\psits-members.php on line 207.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-members', [], true)
+ 3 APPPATH\Controllers\Member.php(12): view('psits-members', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->psitsMembers()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:41:42 --> Error: Class "App\Controllers\MembertModel" not found
+[Method: GET, Route: delete/1]
+in APPPATH\Controllers\Member.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:42:03 --> Error: Class "App\Controllers\MembertModel" not found
+[Method: GET, Route: delete/1]
+in APPPATH\Controllers\Member.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->delete('1')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:54:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "add.php"
+[Method: GET, Route: add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('add', [], true)
+ 3 APPPATH\Controllers\Member.php(25): view('add')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->add()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:54:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "add.php"
+[Method: GET, Route: add]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('add', [], true)
+ 3 APPPATH\Controllers\Member.php(25): view('add')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->add()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:55:44 --> ParseError: syntax error, unexpected token "-", expecting "("
+[Method: GET, Route: add-member]
+in APPPATH\Controllers\Member.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\Psits_System\\app\\Controllers\\Member.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Member')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Member')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Member', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:57:30 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: addMember]
+in APPPATH\Views\add-member.php on line 144.
+ 1 APPPATH\Views\add-member.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\add-member.php', 144)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\add-member.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('add-member', [], true)
+ 5 APPPATH\Controllers\Member.php(25): view('add-member')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->addMember()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:57:38 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: addMember]
+in APPPATH\Views\add-member.php on line 144.
+ 1 APPPATH\Views\add-member.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\add-member.php', 144)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\add-member.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('add-member', [], true)
+ 5 APPPATH\Controllers\Member.php(25): view('add-member')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->addMember()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:58:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "addMember.php"
+[Method: GET, Route: addMember]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('addMember.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('addMember', [], true)
+ 3 APPPATH\Controllers\Member.php(25): view('addMember')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->addMember()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:59:09 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: addMember]
+in APPPATH\Views\addMember.php on line 144.
+ 1 APPPATH\Views\addMember.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\addMember.php', 144)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\addMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('addMember', [], true)
+ 5 APPPATH\Controllers\Member.php(25): view('addMember')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->addMember()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-10 22:59:10 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: addMember]
+in APPPATH\Views\addMember.php on line 144.
+ 1 APPPATH\Views\addMember.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\addMember.php', 144)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\addMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('addMember', [], true)
+ 5 APPPATH\Controllers\Member.php(25): view('addMember')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->addMember()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')

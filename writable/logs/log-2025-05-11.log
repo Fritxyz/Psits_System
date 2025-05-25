@@ -1,0 +1,1996 @@
+CRITICAL - 2025-05-11 00:21:06 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 198.
+ 1 APPPATH\Views\psits-dashboard.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 198)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('psits-dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 00:21:59 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 198.
+ 1 APPPATH\Views\psits-dashboard.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 198)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('psits-dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 00:26:47 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 198.
+ 1 APPPATH\Views\psits-dashboard.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 198)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\Member.php(19): view('psits-dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 00:26:47 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 198.
+ 1 APPPATH\Views\psits-dashboard.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 198)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\Member.php(19): view('psits-dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 00:26:58 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 198.
+ 1 APPPATH\Views\psits-dashboard.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 198)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('psits-dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 00:26:59 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 198.
+ 1 APPPATH\Views\psits-dashboard.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 198)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('psits-dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 00:27:09 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 198.
+ 1 APPPATH\Views\psits-dashboard.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 198)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('psits-dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 00:27:11 --> ErrorException: Undefined variable $psits_members
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 198.
+ 1 APPPATH\Views\psits-dashboard.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $psits_members', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php', 198)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('psits-dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:23:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:25:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:25:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:25:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:26:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "update.php"
+[Method: GET, Route: update/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('update.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\Member.php(64): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->update('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:55 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:57 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:32:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:33:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:33:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:33:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:33:31 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:34:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updatemember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updatemember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:34:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updatemember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updatemember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:34:50 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updatemember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updatemember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:34:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updatemember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updatemember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:34:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updatemember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updatemember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:34:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updatemember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updatemember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:34:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updatemember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updatemember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:34:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updatemember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updatemember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:37:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:39:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:39:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:39:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:39:54 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:40:48 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+[Method: POST, Route: updating]
+in SYSTEMPATH\BaseModel.php on line 1830.
+ 1 SYSTEMPATH\BaseModel.php(1830): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(996): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Member.php(89): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updating()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:41:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:41:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:41:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:41:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:45:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:45:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:45:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:45:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:46:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:46:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:46:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:46:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:49:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:49:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:49:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:49:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:52:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:52:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:52:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:52:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:52:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:52:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:52:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 11:52:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:02:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:02:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:02:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:02:13 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:02:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:02:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:02:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:02:43 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:04:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:04:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:04:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:04:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:06:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:06:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:06:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:06:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:06:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:06:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:06:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:06:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:07:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/scripts.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'scripts.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:07:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-area-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-area-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:07:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/assets/demo/chart-bar-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('assets', 'demo', 'chart-bar-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
+CRITICAL - 2025-05-11 12:07:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: updateMember/js/datatables-simple-demo.js]
+in APPPATH\Views\updateMember.php on line 122.
+ 1 APPPATH\Views\updateMember.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php', 122)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\Psits_System\\app\\Views\\updateMember.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('updateMember', [], true)
+ 5 APPPATH\Controllers\Member.php(64): view('updateMember', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Member->updateMember('js', 'datatables-simple-demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Member))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\Psits_System\\public\\index.php')
