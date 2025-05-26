@@ -93,11 +93,11 @@
                                             <label for="memberGradeLevel" class="form-label">Grade Level</label>
                                             <select class="form-control" id="member-gradelevel" name="member-gradelevel" required>
                                                 <option value="" disabled selected>Select grade level</option>
-                                                <option value="1">1st Year</option>
-                                                <option value="2">2nd Year</option>
-                                                <option value="3">3rd Year</option>
-                                                <option value="4">4th Year</option>
-                                                <option value="5">Above 4th Year</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5 (if you're a graduate)</option>
                                             </select>
                                         </div>
 
