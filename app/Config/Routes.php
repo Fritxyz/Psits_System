@@ -21,13 +21,13 @@ $routes->get('/announcement', [Announcement::class, 'announcement']);
 $routes->post('/add-announcement', [Announcement::class, 'addAnnouncement']); // remind me about this
 
 // Auth Routes
-$routes->get('/register', 'Home::register');
-// $routes->post('/process_register', 'Home::processRegister');
+$routes->get('/register', [Auth::class, 'register']);
+$routes->post('/process_register', [Auth::class, 'processRegister']);
 $routes->get('/login', [Auth::class, 'login']);
-$routes->post('/process-login', [Auth::class, 'processLogin']); // remind me about this
+$routes->post('/processLogin', [Auth::class, 'processLogin']); 
 $routes->get('/logout', [Auth::class, 'logout']);
 $routes->get('/otp', [Auth::class, 'otp']);
-$routes->post('/verify-otp', [Auth::class, 'verifyOtp']); // remind me about this
+$routes->post('/verifyOtp', [Auth::class, 'verifyOtp']); 
 
 // Member Routes (PSITS Members)
 $routes->get('/psits-members', [Member::class, 'psitsMembers']);

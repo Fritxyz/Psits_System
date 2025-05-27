@@ -25,8 +25,6 @@
                                             </div>
                                         <?php endif; ?>
 
-                                      
-
                                         <?php if (session()->getFlashdata('errors')): ?>
                                             <div class="alert alert-danger" id="successMessage">
                                                 <ul>
@@ -39,8 +37,7 @@
                                     </div>
                                     <div class="card-body">
                                         <form action="<?= base_url('processLogin') ?>" method="post">
-                                            
-                                                      
+                                                               
                                           <?php if (session()->getFlashdata('error')): ?>
                                                 <div class="alert alert-danger" id="successMessage">
                                                     <ul>
@@ -59,8 +56,8 @@
 
 
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="inputEmail" type="username" name="username" />
-                                                <label for="inputEmail">Username </label>
+                                                <input class="form-control" id="inputEmail" type="email" name="email" />
+                                                <label for="inputEmail">Email</label>
                                             </div>
                                             <div class="form-floating mb-3">
                                                 <input class="form-control" id="inputPassword" type="password" name="password" />
@@ -78,7 +75,7 @@
                                         </form>
                                     </div>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="<?= base_url('membership') ?>">Apply Psits Membership!</a></div>
+                                        <div class="small"><a href="<?= base_url('register') ?>">Don't have a account? Register now</a></div>
                                     </div>
                                 </div>
                             </div>

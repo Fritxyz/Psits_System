@@ -32,7 +32,10 @@ class Auth extends BaseController
         ]);
         
         if (!$validation->withRequest($this->request)->run()) {
-            return redirect()->to('/login')->withInput()->with('error', $validation->getErrors());
+            return redirect()
+                ->to('/login')
+                ->withInput()
+                ->with('error', $validation->getErrors());
         }
         
         // Check user credentials
@@ -67,12 +70,17 @@ class Auth extends BaseController
             'user_id' => $user['data-user-id'],
             'user_email' => $user['data-user-email'],
             'logged_in' => TRUE,
+            // add a role
         ];
 
         $session->set($sessionData);
         
-        
         return redirect()->to('/psits-dashboard');
+    }
+
+    public function register()
+    {
+        return view('register');
     }
 
     public function logout()
@@ -85,6 +93,19 @@ class Auth extends BaseController
 
     public function processRegister()
     {
+        $recaptchaSecret = getenv('RECAPTCHA_SECRET'); 
+        $recaptchaResponse = $this->request->getPost('g-recaptcha-response');
+
+        // Verify reCAPTCHA
+        $verifyResponse = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret={$recaptchaSecret}&response={$recaptchaResponse}");
+        $responseData = json_decode($verifyResponse);
+
+        if (!$responseData->success) {
+            return redirect()->to('/register')
+                ->withInput()
+                ->with('errors', ['recaptcha' => 'reCAPTCHA verification failed.']);
+        }
+
         $user_model = new UserModel();
 
         $validation = $this->validate([
@@ -94,20 +115,17 @@ class Auth extends BaseController
         ]);
 
         if (!$validation) {
-            // Return validation errors
             return redirect()->to('/register')
                 ->withInput()
-                ->with('errors', $this->validator->getErrors());  
-                
+                ->with('errors', $this->validator->getErrors());
         }
 
-        $otp = random_int(100000, 999999); // Generate 6-digit OTP
+        $otp = random_int(100000, 999999);
         $data = [   
             'data-user-email'    => $this->request->getPost('email'),
             'data-user-password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
             'data-user-otp' => (string) $otp,
-            'data-user-otp-expires' => date('Y-m-d H:i:s', strtotime('+15 minutes')), // OTP expires in 15 minutes
-            // 'data-user-cpassword' => $this->request->getPost('cpassword'),
+            'data-user-otp-expires' => date('Y-m-d H:i:s', strtotime('+15 minutes')),
         ];
 
         if ($user_model->save($data)) {
@@ -118,9 +136,8 @@ class Auth extends BaseController
             $email->send();
 
             return redirect()->to('/otp')
-               ->with('success', 'Registration Successful')
-               ->with('email', $this->request->getPost('email')); // Pass email to OTP page
-            // return redirect()->to('/otp')->with('success', 'Registration Successful');
+                ->with('success', 'Registration Successful')
+                ->with('email', $this->request->getPost('email'));
         } else {
             return redirect()->to('/register')->with('errors', $user_model->errors());
         }

@@ -1,0 +1,16 @@
+# Ignore environment file
+.env
+
+# CI4 writable directory (optional to ignore logs, cache, etc.)
+writable/cache/*
+writable/logs/*
+writable/session/*
+writable/uploads/*
+
+# IDE or editor folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
