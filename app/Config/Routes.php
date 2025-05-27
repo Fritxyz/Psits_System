@@ -6,6 +6,7 @@ use App\Controllers\Home;
 use App\Controllers\AdminDashboard;
 use App\Controllers\Announcement;
 use App\Controllers\Member;
+use App\Controllers\Profile;
 
 /**
  * @var RouteCollection $routes
@@ -40,4 +41,7 @@ $routes->get('/pendingMember', [Member::class, 'pendingMember']);
 $routes->get('/membership', [Member::class, 'membership']);
 
 /*Pending model*/
-$routes->post('/processMembership', 'Pending::ProcessMembership');
+$routes->post('/processMembership', [Member::class, 'processMembership']);
+
+// profile routes
+$routes->get('/profile', [Profile::class, 'index']);

@@ -13,7 +13,7 @@ class Pending  extends BaseController
         $this->pendingModel = new PendingModel();
     }
 
-    public function ProcessMembership()
+    public function processMembership()
     {
         helper(['form']);
 
