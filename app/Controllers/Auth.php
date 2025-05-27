@@ -100,6 +100,7 @@ class Auth extends BaseController
                 ->with('errors', $this->validator->getErrors());  
                 
         }
+
         $otp = random_int(100000, 999999); // Generate 6-digit OTP
         $data = [   
             'data-user-email'    => $this->request->getPost('email'),
@@ -110,7 +111,6 @@ class Auth extends BaseController
         ];
 
         if ($user_model->save($data)) {
-
             $email = \Config\Services::email();
             $email->setTo($this->request->getPost('email'));
             $email->setSubject('Your OTP Code');

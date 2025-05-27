@@ -119,7 +119,6 @@
                                         <button type="submit" name="adding" class="btn" style="background-color: #198754; color: white;">Add</button>
                                     </div>
                                 </form>
-
                         </div>
                     </div>
 

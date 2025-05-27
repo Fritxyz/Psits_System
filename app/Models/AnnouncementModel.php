@@ -10,6 +10,11 @@ class AnnouncementModel extends Model
     protected $allowedFields = ['title', 'who', 'what', 'when', 'where', 'content', 'status'];
     protected $useTimestamps = true;
 
+    public function countApprovedAnnouncements()
+    {
+        return $this->where('status', 'APPROVED')->countAllResults();
+    }
+
     // // Fetch pending announcements
     // public function getPendingAnnouncements()
     // {

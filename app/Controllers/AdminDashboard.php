@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\AnnouncementModel;
 use App\Models\PendingModel;
 use App\Models\MemberModel;
 
@@ -9,11 +10,13 @@ class AdminDashboard extends BaseController
 {
     private $pendingModel;
     private $memberModel;
+    private $announcementModel;
 
     public function __construct()
     {
         $this->pendingModel = new PendingModel();
         $this->memberModel = new MemberModel();
+        $this->announcementModel = new AnnouncementModel();
     }
 
     public function psitsDashboard()
@@ -24,6 +27,9 @@ class AdminDashboard extends BaseController
         $gradeLevelData = $this->memberModel->select('member-gradelevel, COUNT(*) as total')
                             ->groupBy('member-gradelevel')
                             ->findAll();
+
+        // Fetch the count of approved announcements
+        $apprrove['approveAnnouncement'] = $this->announcementModel->countApprovedAnnouncements();
 
         // Initialize variables
         $gradeLevels = [];
@@ -66,6 +72,6 @@ class AdminDashboard extends BaseController
             
         ];
 
-        return view('psits-dashboard', array_merge($data, $pendingdata));
+        return view('psits-dashboard', array_merge($data, $pendingdata, $apprrove));
     }
 }

@@ -109,21 +109,18 @@
                                                         <label for="height" class="form-label">Grade Level:</label>
                                                         <select class="form-control" id="gradelevel" name="gradelevel" value="<?= set_value('gradelevel') ?>" required>
                                                             <option value="" disabled selected>Select grade level</option>
-                                                            <option value="1">1st Year</option>
-                                                            <option value="2">2nd Year</option>
-                                                            <option value="3">3rd Year</option>
-                                                            <option value="4">4th Year</option>
-                                                            <option value="5">Above 4th Year</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5 (if you're a graduate)</option>
                                                         </select>
                                                     </div>
                                                     <div class="col">
                                                         <label for="" class="form-label">Username:</label>
                                                         <input type="text" class="form-control" id="username" name="username" value="<?= set_value('username') ?>" required>
                                                     </div>
-                                                    
                                                 </div>
-
-                                              
 
                                                 <!-- Row 5 -->
                                                 <div class="row mb-3">

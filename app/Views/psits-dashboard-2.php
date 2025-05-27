@@ -13,7 +13,10 @@
         <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css" rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
     </head>
+
+
     <body class="sb-nav-fixed">
+        <?php include('partials/chatbot.php'); ?>
         <?php include('partials/header.php'); ?>
         <div id="layoutSidenav">
            <?php include('partials/header2.php'); ?>
@@ -25,30 +28,58 @@
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
                         <div class="row">
-
-                            <!-- update to fritz -->
                             <div class="col-xl-3 col-md-6">
-                                <div class="card bg-success text-white mb-4">
-                                    <div class="card-body">
-                                       ANNOUNCEMENT                                    </div>
+                                <div class="card bg-primary text-white mb-4">
+                                    <div class="card-body">ANNOUNCEMENT</div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <span class="small text-white"><strong><?=$approveAnnouncement ?></strong></span>
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- end here -->
-                             
-                           
                             <div class="col-xl-3 col-md-6">
-                                <div class="card bg-success text-white mb-4">
-                                    <div class="card-body">
-                                        PENDING APPROVALS
-                                    </div>
+                                <div class="card bg-warning text-white mb-4">
+                                    <div class="card-body">SEMINAR</div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
-                                        <span class="small text-white"><strong><?=$pendingCount ?></strong></span>
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
-                            </div>   
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card bg-success text-white mb-4">
+                                    <div class="card-body">EVENTS</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                         <div class="col-xl-3 col-md-6">
+                        <div class="card bg-success text-white mb-4">
+                            <div class="card-body">
+                                PENDING APPROVALS
+                            </div>
+                            <div class="card-footer d-flex align-items-center justify-content-between">
+                                <span class="small text-white"><strong><?=$pendingCount ?></strong></span>
+                            </div>
+                        </div>
+                </div>
+
+
+                                
+
+                            <!-- <div class="col-xl-3 col-md-6">
+                                <div class="card bg-danger text-white mb-4">
+                                    <div class="card-body">Danger Card</div>
+                                    <div class="card-footer d-flex align-items-center justify-content-between">
+                                        <a class="small text-white stretched-link" href="#">View Details</a>
+                                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                                    </div>
+                                </div>
+                            </div> -->
                             </div>
                                 <div class="row">
                                 <div class="col-xl-6">
@@ -68,16 +99,15 @@
                                     <div class="card-header">
                                         <i class="fas fa-chart-bar me-1"></i>
                                         Year Level Chart
-                                        
 
-                                        
+                                         <div style="margin-left: 20px; text-align: center; font-size: 10px; font-weight: bold;">
+                                            <p>Total Members</p>
+                                            <p id="totalMembers" style="font-size: 10px; color: #007bff;"><?= $totalMembers; ?></p>
+                                        </div>
 
                                     </div>
-                                    <br>
-                                    <p style="text-align: center"><strong>Total Members</strong></p>
-                                            <p id="totalMembers" style="text-align: center; font-size: 11px; color: #007bff;"><?= $totalMembers; ?></p>
                                     
-                                    <div class="card-body"  class="card-body d-flex flex-column" style="height: 100%;"><canvas id="myBarChart" style="flex-grow: 1;" width="100%" height="69"></canvas></div>
+                                    <div class="card-body"  class="card-body d-flex flex-column" style="height: 100%;"><canvas id="myBarChart" style="flex-grow: 1;" width="100%" height="73"></canvas></div>
     
                                 </div>
                             </div>
@@ -97,7 +127,9 @@
                             </div>
                         </div>
 
+                       
 
+                        
                     </div>
                 </main>
                 <?php include('partials/footer.php'); ?>
@@ -130,7 +162,7 @@
                     //     {
                     //         title: 'Conference',
                     //         start: '2025-05-25',
-                    //         end: '2025-05-29',
+                    //         end: '2025-05-27',
                     //     },
                     // ]
                 });

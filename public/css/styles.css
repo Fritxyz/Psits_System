@@ -79,6 +79,41 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+#chatWidget {
+position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: none; /* Initially hidden */
+    flex-direction: column;
+  }
+
+#chatWidget.active {
+  display: flex; /* Shown when active */
+}
+
+#chatToggleBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  font-size: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 *,
 *::before,
 *::after {
@@ -669,6 +704,7 @@ progress {
     max-width: 1320px;
   }
 }
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -677,8 +713,9 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
-  justify-content: space-between;
+  justify-content: flex-start;
 }
+
 .row > * {
   flex-shrink: 0;
   width: 100%;

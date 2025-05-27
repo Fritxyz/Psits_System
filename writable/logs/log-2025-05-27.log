@@ -1,0 +1,15 @@
+CRITICAL - 2025-05-27 14:49:40 --> ErrorException: Undefined variable $approveAnnouncement
+[Method: GET, Route: psits-dashboard]
+in APPPATH\Views\psits-dashboard.php on line 35.
+ 1 APPPATH\Views\psits-dashboard.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $approveAnnouncement', 'C:\\Users\\Kieth\\Downloads\\Psits_System\\app\\Views\\psits-dashboard.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Users\\Kieth\\Downloads\\Psits_System\\app\\Views\\psits-dashboard.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('psits-dashboard', [], true)
+ 5 APPPATH\Controllers\AdminDashboard.php(69): view('psits-dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminDashboard->psitsDashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Kieth\\Downloads\\Psits_System\\public\\index.php')
