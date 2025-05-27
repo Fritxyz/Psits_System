@@ -14,6 +14,7 @@
         <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
 </head>
 <body class="sb-nav-fixed">
+    <?php include('chatbot.php'); ?>
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
             <a class="navbar-brand ps-3" href="<?= base_url('psits-dashboard') ?>">PSITS</a>

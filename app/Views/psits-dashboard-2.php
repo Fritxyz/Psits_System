@@ -16,7 +16,7 @@
 
 
     <body class="sb-nav-fixed">
-        <?php include('partials/chatbot.php'); ?>
+
         <?php include('partials/header.php'); ?>
         <div id="layoutSidenav">
            <?php include('partials/header2.php'); ?>
