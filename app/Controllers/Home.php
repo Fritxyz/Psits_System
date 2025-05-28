@@ -8,6 +8,21 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('welcome_message');
+        return view('Home/index');
+    }
+
+    public function achievements()
+    {
+        return view('Home/achievements');
+    }
+
+    public function courses()
+    {
+        return view('Home/courses');
+    }
+
+    public function news()
+    {
+        return view('Home/news');
     }
 }

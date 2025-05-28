@@ -7,14 +7,23 @@ use App\Controllers\AdminDashboard;
 use App\Controllers\Announcement;
 use App\Controllers\Member;
 use App\Controllers\Profile;
+use App\Controllers\User;
 
 /**
  * @var RouteCollection $routes
  */
 
-// Admin Routes (PSITS Members)
+// PSITS home page routes
 $routes->get('/', [Home::class, 'index']);
+$routes->get('/achievements', [Home::class, 'achievements']);
+$routes->get('/courses', [Home::class, 'courses']);
+$routes->get('/news', [Home::class, 'news']);
+
+// Admin Routes (PSITS Members)
 $routes->get('/psits-dashboard', [AdminDashboard::class, 'psitsDashboard']);
+
+// User Routes
+$routes->get('/home', [User::class, 'index']);
 
 // Annoucement Routes
 $routes->get('/announcement', [Announcement::class, 'announcement']);

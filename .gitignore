@@ -6,6 +6,7 @@ writable/cache/*
 writable/logs/*
 writable/session/*
 writable/uploads/*
+writable/debugbar/*
 
 # IDE or editor folders
 .vscode/
@@ -14,3 +15,5 @@ writable/uploads/*
 # OS files
 .DS_Store
 Thumbs.db
+
+# todo ayusin ang login pati register

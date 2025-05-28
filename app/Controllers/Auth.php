@@ -15,6 +15,12 @@ class Auth extends BaseController
 
     public function login()
     {
+        if(session()->get('is_logged_in')) {
+
+            // lagyan nested if based sa role
+            return redirect()->to('/psits-dashboard');
+        }
+
         return view('login');
     }
 
@@ -66,16 +72,17 @@ class Auth extends BaseController
         
         // Set session data
         $session = session();
+
         $sessionData = [
             'user_id' => $user['data-user-id'],
             'user_email' => $user['data-user-email'],
-            'logged_in' => TRUE,
-            // add a role
+            'is_logged_in' => TRUE,
+            'user_role' => $user['data-user-role']
         ];
 
         $session->set($sessionData);
         
-        return redirect()->to('/psits-dashboard');
+        return redirect()->to('/home');
     }
 
     public function register()
