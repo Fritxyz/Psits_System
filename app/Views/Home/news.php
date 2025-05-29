@@ -1,4 +1,4 @@
-<?php include 'psits-header.php' ?>
+
     <!-- First Section -->
     <section class="text-center py-5">
         <h1 class="display-3 fw-bold" style="font-family: 'Lexend';">NEWS</h1>

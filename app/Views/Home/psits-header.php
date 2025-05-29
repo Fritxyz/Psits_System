@@ -1,9 +1,9 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home - PSITS</title>
+  <title><?= ($title) ?> - PSITS</title>
 
   <!-- Bootstrap CSS -->
   <link
@@ -30,10 +30,10 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-center">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="<?= base_url('/news') ?>">News</a></li>
-        <li class="nav-item"><a class="nav-link" href="<?= base_url('/achievements') ?>">Achievements</a></li>
-        <li class="nav-item"><a class="nav-link" href="<?= base_url('/courses') ?>">Courses</a></li>
+        <li class="nav-item"><a class="nav-link <?= $title == 'Home' ? 'active' : '' ?>" href="<?= base_url('/') ?>">Home</a></li>
+        <li class="nav-item"><a class="nav-link <?= $title == 'News' ? 'active' : '' ?>" href="<?= base_url('/news') ?>">News</a></li>
+        <li class="nav-item"><a class="nav-link <?= $title == 'Achievements' ? 'active' : '' ?>" href="<?= base_url('/achievements') ?>">Achievements</a></li>
+        <li class="nav-item"><a class="nav-link <?= $title == 'Courses' ? 'active' : '' ?>" href="<?= base_url('/courses') ?>">Courses</a></li>
         <li class="nav-item ms-3">
           <button class="btn btn-outline-light">Enroll Now</button>
         </li>
@@ -41,4 +41,4 @@
     </div>
   </nav>
 
-  // todo: fix the home page tapos validation na sa user roles
+  <!-- // todo: fix the home page tapos validation na sa user roles -->

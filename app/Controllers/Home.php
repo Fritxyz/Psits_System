@@ -8,21 +8,25 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('Home/index');
+        return view('Home/psits-header', ['title' => 'Home']) 
+            .view('Home/index');
     }
 
     public function achievements()
     {
-        return view('Home/achievements');
+        return view('Home/psits-header', ['title' => 'Achievements']) 
+            .view('Home/achievements');
     }
 
     public function courses()
     {
-        return view('Home/courses');
+        return view('Home/psits-header', ['title' => 'Courses']) 
+            .view('Home/courses');
     }
 
     public function news()
     {
-        return view('Home/news');
+        return view('Home/psits-header', ['title' => 'News']) 
+            .view('Home/news');
     }
 }

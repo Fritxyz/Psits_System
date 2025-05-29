@@ -1,6 +1,3 @@
- <!-- Header -->
-  <?php include 'psits-header.php'; ?>
-
   <!-- Hero Section -->
   <section class="position-relative text-white text-center hero-section">
     <img

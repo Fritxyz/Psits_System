@@ -1,8 +1,5 @@
 
 
-  <!-- Header -->
- <?php include 'psits-header.php'; ?>
-
   <!-- Title -->
   <section class="text-center py-5">
     <h1 class="display-3 fw-bold" style="font-family: 'Lexend';">ACHIEVEMENTS</h1>
