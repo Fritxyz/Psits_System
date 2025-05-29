@@ -16,9 +16,8 @@ class Auth extends BaseController
     public function login()
     {
         if(session()->get('is_logged_in')) {
-
             // lagyan nested if based sa role
-            return redirect()->to('/psits-dashboard');
+            return redirect()->to('/');
         }
 
         return view('login');
@@ -82,11 +81,19 @@ class Auth extends BaseController
 
         $session->set($sessionData);
         
-        return redirect()->to('/home');
+        return redirect()->to('/');
     }
 
     public function register()
     {
+        if (session()->get('is_logged_in')) {
+            if(session()->get('user_role') === 'officer') {
+                return redirect()->to('/psits-dashboard');
+            } else {
+                return redirect()->to('/');
+            }
+        }
+
         return view('register');
     }
 
@@ -113,9 +120,15 @@ class Auth extends BaseController
                 ->with('errors', ['recaptcha' => 'reCAPTCHA verification failed.']);
         }
 
-        $user_model = new UserModel();
+        // todo: validate the firstname, lastname, course, gradelevel, and student id
 
         $validation = $this->validate([
+            'firstName' => 'required|alpha_space|min_length[2]',
+            'lastName'  => 'required|alpha_space|min_length[2]',
+            'course'    => 'required',
+            'gradeLevel' => 'required|integer',
+            'studentId' => 'required|numeric|exact_length[7]|is_unique[users.data-user-student-id]', 
+            'section'   => 'required',
             'email'    => 'required|valid_email|is_unique[users.data-user-email]',
             'password' => 'required|min_length[8]',
             'cpassword' => 'required|matches[password]',
@@ -128,14 +141,21 @@ class Auth extends BaseController
         }
 
         $otp = random_int(100000, 999999);
-        $data = [   
+
+        $data = [
+            'data-user-firstname' => $this->request->getPost('firstName'),
+            'data-user-lastname'  => $this->request->getPost('lastName'),
+            'data-user-course'    => $this->request->getPost('course'),
+            'data-user-gradelevel' => $this->request->getPost('gradeLevel'),
+            'data-user-student-id' => $this->request->getPost('studentId'), 
+            'data-user-section'   => $this->request->getPost('section'),  
             'data-user-email'    => $this->request->getPost('email'),
             'data-user-password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
             'data-user-otp' => (string) $otp,
             'data-user-otp-expires' => date('Y-m-d H:i:s', strtotime('+15 minutes')),
         ];
 
-        if ($user_model->save($data)) {
+        if ($this->userModel->save($data)) {
             $email = \Config\Services::email();
             $email->setTo($this->request->getPost('email'));
             $email->setSubject('Your OTP Code');
@@ -146,12 +166,20 @@ class Auth extends BaseController
                 ->with('success', 'Registration Successful')
                 ->with('email', $this->request->getPost('email'));
         } else {
-            return redirect()->to('/register')->with('errors', $user_model->errors());
+            return redirect()->to('/register')->with('errors', $this->userModel->errors());
         }
     }
 
     public function otp()   
     {
+        if(!session()->get('email')) {
+            return redirect()->to('/login')->with('error', 'Please log in to access this page.');
+        }
+
+        if (session()->get('is_logged_in')) {
+            return redirect()->to('/home');
+        }
+
         return view('otp');
     }
 
@@ -173,6 +201,8 @@ class Auth extends BaseController
                 'data-user-otp-expires' => null,
                 'data-user-is-verified' => 1 // Add verification status with hyphen
             ]);
+
+            session()->remove('email');
 
             return redirect()->to('/login')->with('success', 'Email verification successful. You can now log in.');
         } else {

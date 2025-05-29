@@ -6,15 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Register - SB Admin</title>
+        <title>Register</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="bg-primary">
-
-        
-
-
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
                 <main>
@@ -22,8 +18,9 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-7">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Create Account</h3>
-                                    <?php if (session()->getFlashdata('errors')): ?>
+                                    <div class="card-header">
+                                        <h3 class="text-center font-weight-light my-4">Create Account</h3>
+                                        <?php if (session()->getFlashdata('errors')): ?>
                                             <div class="alert alert-danger">
                                                 <ul>
                                                     <?php foreach (session()->getFlashdata('errors') as $error): ?>
@@ -44,6 +41,69 @@
                                                 </div>
                                                 -->
                                             </div>
+
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" name="firstName" id="firstName" type="text" placeholder="ex. Juan Dela Cruz" />
+                                                        <label for="firstName">First Name</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" name="lastName" id="lastName" type="text" placeholder="ex. Juan Dela Cruz" />
+                                                        <label for="lastName">Last Name</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row mb-3">
+                                                <div class="col-md-3">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" name="studentId" id="studentId" type="number" placeholder="ex. 2250000" />
+                                                        <label for="studentId">Student ID</label>
+                                                    </div>
+                                                </div>
+                                                
+                                               <div class="col-md-3">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                       <select class="form-control" id="course" name="course" required>
+                                                            <option value="" disabled selected>Select course</option>
+                                                            <option value="BS-INFOTECH">BS-INFOTECH</option>
+                                                            <option value="BS-COMSCI">BS-COMSCI</option>
+                                                            <option value="BS-INFOSYS">BS-INFOSYS</option>
+                                                        </select>
+                                                        <label for="course">Course</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-3">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                       <select class="form-control" id="section" name="section" required>
+                                                            <option value="" disabled selected>Select section</option>
+                                                            <option value="A">A</option>
+                                                            <option value="B">B</option>
+                                                            <option value="C">C</option>
+                                                        </select>
+                                                        <label for="section">Section</label>
+                                                    </div>
+                                                </div>
+
+                                                 <div class="col-md-3">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                       <select class="form-control" id="gradeLevel" name="gradeLevel" required>
+                                                            <option value="" disabled selected>Select grade level</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">Irregular</option>
+                                                        </select>
+                                                        <label for="course">Grade Level</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
                                             <div class="form-floating mb-3">
                                                 <input class="form-control" name="email" id="inputEmail" type="email" placeholder="name@example.com" />
                                                 <label for="inputEmail">Email address</label>

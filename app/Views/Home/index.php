@@ -1,11 +1,26 @@
+<div class="card-header">
+    <?php if (session()->getFlashdata('errors')): ?>
+        <div class="alert alert-danger">
+            <ul>
+                <?php foreach (session()->getFlashdata('errors') as $error): ?>
+                    <li><?= esc($error) ?></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+    <?php endif; ?>
+</div>  
+  
   <!-- Hero Section -->
   <section class="position-relative text-white text-center hero-section">
     <img
       src="<?= base_url('image/psits-assets/official_officers.jpg') ?>"
-      class="img-fluid w-100 h-100 position-absolute top-0 start-0 object-fit-cover hero-bg"
+      class="img-fluid w-100 h-100 position-absolute top-0 start-0 object-fit-cover"
       alt="PSITS Officers"
     />
-    <div class="container position-relative py-5">
+    <!-- Overlay -->
+    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.5; z-index: 1;"></div>
+
+    <div class="container position-relative py-5" style="z-index: 2;">
       <h1 class="display-4 fw-bold">Unleash your imagination, embrace your freedom</h1>
       <p class="lead mt-4">Welcome to PSITS-COTSU! Your digital hub for tech news, events, and student recognition.</p>
       <div class="mt-4">

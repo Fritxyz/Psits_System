@@ -3,16 +3,19 @@
 namespace App\Controllers;
 use App\Models\MemberModel;
 use App\Models\PendingModel;
+use App\Models\UserModel;
 
 class Member extends BaseController
 {
     private $memberModel;
     private $pendingModel;
+    private $userModel;
 
     public function __construct()
     {
         $this->memberModel = new MemberModel();
         $this->pendingModel = new PendingModel();
+        $this->userModel = new UserModel();
     }
 
     public function psitsMembers()
@@ -23,8 +26,26 @@ class Member extends BaseController
 
     public function membership()
     {
-        helper(['form']);
-        return view('membership');
+        if (!session()->get('is_logged_in')) {
+            return redirect()->to('/login')->with('error', 'Please log in to access this page.');
+        }
+
+        if (session()->get('user_role') !== 'Student') {
+            return redirect()->to('/')->with('error', 'You do not have permission to access this page.');
+        }
+
+        // Check if the user has already applied for membership
+        $userId = session()->get('user_id');
+        $pending = $this->pendingModel->where('pending_Idnumber', $userId)->first();
+
+        if ($pending) {
+            return redirect()->to('/')->with('error', 'You have already applied for membership. Please wait for approval.');
+        }
+
+
+        $user = $this->userModel->find($userId);
+
+        return view('Membership/membership', ['user' => $user]);
     }
 
     public function pendingMember()

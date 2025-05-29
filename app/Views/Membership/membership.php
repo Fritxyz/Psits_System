@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Register</title>
+        <title>Membership</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
@@ -34,30 +34,24 @@
                                                 <div class="row mb-3">
                                                     <div class="col">
                                                         <label for="name" class="form-label">Lastname:</label>
-                                                        <input type="text" class="form-control" id="name" name="lastname" value="<?= set_value('lastname') ?>" required>
+                                                        <input type="text" class="form-control" id="name" name="lastname" value="<?= $user['data-user-firstname'] ?>" disabled>
                                                     </div>
                                                     <div class="col">
                                                         <label for="dob" class="form-label">Firstname:</label>
-                                                        <input type="text" class="form-control" id="dob" name="firstname" value="<?= set_value('firstname') ?>" required>
+                                                        <input type="text" class="form-control" id="dob" name="firstname" value="<?= $user['data-user-lastname'] ?>" disabled>
                                                     </div>
                                                 </div>
 
                                                   <!-- Row 4 -->
                                                 <div class="row mb-3">
                                                     <div class="col">
-                                                        <label for="dob" class="form-label">Middlename:</label>
-                                                        <input type="text" class="form-control" id="dob" name="middlename" value="<?= set_value('middlename') ?>" required>
-                                                    </div>
-                                                    <div class="col">
                                                         <label for="address" class="form-label">Address:</label>
-                                                        <input type="text" class="form-control" id="address" name="address" value="<?= set_value('address') ?>" required>
+                                                        <input type="text" class="form-control" id="address" name="address" required>
                                                     </div>
                                                 </div>
 
                                                 <!-- Row 2 -->
                                                 <div class="row mb-3">
-
-
                                                    <div class="col">
                                                         <label for="gender" class="form-label">Gender:</label>
                                                         <select class="form-control" id="gender" name="gender" required>
@@ -69,27 +63,27 @@
                                                     </div>
 
                                                     <div class="col">
-                                                        <label for="civil-status" class="form-label">School ID Number:</label>
-                                                        <input type="text" class="form-control" id="civil-status" name="Idnumber" value="<?= set_value('Idnumber') ?>" required>
+                                                        <label for="civil-status" class="form-label">Student ID:</label>
+                                                        <input type="text" class="form-control" id="civil-status" name="Idnumber" value="<?= $user['data-user-student-id'] ?>" disabled>
                                                     </div>
 
                                                     <div class="col">
                                                         <label for="citizenship" class="form-label">Course:</label>
-                                                        <select class="form-control" id="course" name="course" required>
-                                                            <option value="" disabled selected>Select course</option>
-                                                            <option value="BS-COMSCI">BS-COMSCI</option>
-                                                            <option value="BS-INFOSYS">BS-INFOSYS</option>
-                                                            <option value="BS-INFOTECH">BS-INFOTECH</option>
+                                                        <select class="form-control" id="course" name="course" disabled>
+                                                            <option value="" disabled>-- Select Course --</option>
+                                                            <option value="<?= $user['data-user-course'] == 'BS-COMSCI' ? 'selected' : '' ?>">BS-COMSCI</option>
+                                                            <option value="<?= $user['data-user-course'] == 'BS-INFOSYS' ? 'selected' : '' ?>">BS-INFOSYS</option>
+                                                            <option value="<?= $user['data-user-course'] == 'BS-INFOTECH' ? 'selected' : '' ?>">BS-INFOTECH</option>
                                                         </select>
                                                     </div>
 
                                                     <div class="col">
                                                         <label for="address" class="form-label">Section:</label>
-                                                        <select class="form-control" id="section" name="section" required>
-                                                            <option value="" disabled selected>Select section</option>
-                                                            <option value="A">A</option>
-                                                            <option value="B">B</option>
-                                                            <option value="C">C</option>
+                                                        <select class="form-control" id="section" name="section" disabled>
+                                                            <option value="" disabled>-- Select Section -- </option>
+                                                            <option value="<?= $user['data-user-section'] == 'A' ? 'selected' : '' ?>">A</option>
+                                                            <option value="<?= $user['data-user-section'] == 'B' ? 'selected' : '' ?>">B</option>
+                                                            <option value="<?= $user['data-user-section'] == 'C' ? 'selected' : '' ?>">C</option>
                                                         </select>
                                                     </div>                      
                                                 </div>
@@ -98,50 +92,31 @@
                                                 <div class="row mb-3">
                                                     <div class="col">
                                                         <label for="age" class="form-label">Age:</label>
-                                                        <input type="number" class="form-control" id="age" name="age" value="<?= set_value('age') ?>" required>
+                                                        <input type="number" class="form-control" id="age" name="age" value="" required>
                                                     </div>
                                                     
                                                     <div class="col">
                                                         <label for="contact" class="form-label">Contact Number:</label>
-                                                        <input type="text" class="form-control" id="contact" name="contact" value="<?= set_value(field: 'contact') ?>" required>
+                                                        <input type="text" class="form-control" id="contact" name="contact" value="" required>
                                                     </div>
                                                     <div class="col">
                                                         <label for="height" class="form-label">Grade Level:</label>
-                                                        <select class="form-control" id="gradelevel" name="gradelevel" value="<?= set_value('gradelevel') ?>" required>
-                                                            <option value="" disabled selected>Select grade level</option>
-                                                            <option value="1">1</option>
-                                                            <option value="2">2</option>
-                                                            <option value="3">3</option>
-                                                            <option value="4">4</option>
-                                                            <option value="5">5 (if you're a graduate)</option>
+                                                        <select class="form-control" id="gradelevel" name="gradelevel" disabled>
+                                                            <option value="" disabled>Select grade level</option>
+                                                            <option value="<?= $user['data-user-gradelevel'] == '1' ? 'selected' : '' ?>">1</option>
+                                                            <option value="<?= $user['data-user-gradelevel'] == '2' ? 'selected' : '' ?>">2</option>
+                                                            <option value="<?= $user['data-user-gradelevel'] == '3' ? 'selected' : '' ?>">3</option>
+                                                            <option value="<?= $user['data-user-gradelevel'] == '4' ? 'selected' : '' ?>">4</option>
+                                                            <option value="<?= $user['data-user-gradelevel'] == '5' ? 'selected' : '' ?>">Irregular</option>
                                                         </select>
                                                     </div>
-                                                    <div class="col">
-                                                        <label for="" class="form-label">Username:</label>
-                                                        <input type="text" class="form-control" id="username" name="username" value="<?= set_value('username') ?>" required>
-                                                    </div>
-                                                </div>
-
-                                                <!-- Row 5 -->
-                                                <div class="row mb-3">
-                                                    <div class="col">
-                                                        <label for="" class="form-label">Password:</label>
-                                                        <input type="password" class="form-control" id="" name="password" value="<?= set_value('password') ?>" required>
-                                                    </div>
-                                                    <div class="col">
-                                                        <label for="" class="form-label">Confirm Password:</label>
-                                                        <input type="password" class="form-control" id="" name="cpassword" value="<?= set_value('cpassword') ?>" required>
-                                                    </div>
-                                                    
-                                                    
                                                 </div>
 
                                                 <div class="row mb-3">
                                                     <div class="col">
                                                         <label for="height" class="form-label">Gmail:</label>
-                                                        <input type="email" class="form-control" id="height" name="gmail" value="<?= set_value('gmail') ?>" required>
+                                                        <input type="email" class="form-control" id="height" name="gmail" value="<?= $user['data-user-email'] ?>" disabled>
                                                     </div>
-
                                                 </div>
 
 <!--                                            
@@ -186,16 +161,6 @@
                                             </div> <br>
                                         </form>
                                     </div>
-
-                                    <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="<?= base_url('login') ?>">Already Member? Go to login</a></div>
-                                    </div>
-
-
-                                    
-
-
-
                                 </div>
                             </div>
                         </div>
@@ -203,6 +168,8 @@
                 </main>
             </div>
             <br>
+
+            <!-- todo: to fix the membership controller  -->
             <div id="layoutAuthentication_footer">
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
