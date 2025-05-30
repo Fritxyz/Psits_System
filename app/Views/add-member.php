@@ -30,8 +30,15 @@
                             PSITS ADD MEMBER
                         </div>
                         <div class="card-body">
+                            <?php if (session()->getFlashdata('error')): ?>
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    <?= session()->getFlashdata('error') ?>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            <?php endif; ?>
+
                             
-                            <form action="<?= base_url('/adding') ?>" method="post" >
+                            <form action="<?= base_url('/admin/psits/members/adding-member') ?>" method="post" >
                                     
                                     <div class="modal-body">
                                         <div class="mb-3">
@@ -42,11 +49,6 @@
                                         <div class="mb-3">
                                             <label for="memberName" class="form-label">First Name</label>
                                             <input type="text" class="form-control" id="memberName" name="member-firstname" placeholder="example : Hoper  " required>
-                                        </div>
-
-                                        <div class="mb-3">
-                                            <label for="memberName" class="form-label">Middle Name</label>
-                                            <input type="text" class="form-control" id="memberName" name="member-middlename" placeholder="example :Macabla" required>
                                         </div>
 
                                         <div class="mb-3">
@@ -97,7 +99,7 @@
                                                 <option value="2">2</option>
                                                 <option value="3">3</option>
                                                 <option value="4">4</option>
-                                                <option value="5">5 (if you're a graduate)</option>
+                                                <option value="5">Irregular</option>
                                             </select>
                                         </div>
 

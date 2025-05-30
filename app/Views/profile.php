@@ -24,31 +24,72 @@
                             <div class="card-header">
                                 <h2>PROFILE</h2>
                             </div>
+
+                            <div>
+                                <?php if (session()->getFlashdata('success')): ?>
+                                    <div class="alert alert-success" id="successMessage">
+                                        <?= esc(session()->getFlashdata('success')) ?>
+                                    </div>
+                                <?php endif; ?>
+                                
+                                <?php if ($errors = session()->getFlashdata('errors')): ?>
+                                    <div class="alert alert-danger" id="errorMessage">
+                                        <?= is_array($errors) ? implode('<br>', array_map('esc', $errors)) : esc($errors) ?>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
+
                             <br>
 
-                            <form action="<?= site_url('account/updateSettings') ?>" method="post">
+                            <form action="<?= site_url('admin/psits/profile/update') ?>" method="post">
                                 <div class="mb-3">
-                                    <label for="username" class="form-label">User Name</label>
-                                    <input type="text" id="username" name="username" class="form-control" value="example">
+                                    <label for="username" class="form-label">First Name</label>
+                                    <input type="text" id="firstname" name="firstname" class="form-control" value="<?= $user['data-user-firstname'] ?>">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="email" class="form-label">E-Mail</label>
-                                    <input type="email" id="email" name="email" class="form-control" value="example@gmail.com">
+                                    <label for="username" class="form-label">Last Name</label>
+                                    <input type="text" id="lastname" name="lastname" class="form-control" value="<?= $user['data-user-lastname'] ?>">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="firstname" class="form-label">First Name</label>
-                                    <input type="text" id="firstname" name="firstname" class="form-control" value="example">
+                                    <label for="username" class="form-label">Student Id</label>
+                                    <input type="text" id="studentid" name="studentid" class="form-control" value="<?= $user['data-user-student-id'] ?>">
                                 </div>
                                 <div class="mb-3">
-                                    <label for="lastname" class="form-label">Last Name</label>
-                                    <input type="text" id="lastname" name="lastname" class="form-control" value="example">
+                                    <label for="course" class="form-label">Course</label>
+                                    <select class="form-control" id="course" name="course" required>
+                                        <option value="" disabled <?= empty($user['data-user-course']) ? 'selected' : '' ?>>-- Select Course --</option>
+                                        <option value="BS-COMSCI" <?= $user['data-user-course'] === 'BS-COMSCI' ? 'selected' : '' ?>>BS-COMSCI</option>
+                                        <option value="BS-INFOSYS" <?= $user['data-user-course'] === 'BS-INFOSYS' ? 'selected' : '' ?>>BS-INFOSYS</option>
+                                        <option value="BS-INFOTECH" <?= $user['data-user-course'] === 'BS-INFOTECH' ? 'selected' : '' ?>>BS-INFOTECH</option>
+                                    </select>
+                                <div class="mb-3">
+                                    <label for="section" class="form-label">Section</label>
+                                    <select class="form-control" id="section" name="section" required>
+                                        <option value="" disabled <?= empty($user['data-user-section']) ? 'selected' : '' ?>>-- Select Course --</option>
+                                        <option value="A" <?= $user['data-user-section'] === 'A' ? 'selected' : '' ?>>A</option>
+                                        <option value="B" <?= $user['data-user-section'] === 'B' ? 'selected' : '' ?>>B</option>
+                                        <option value="C" <?= $user['data-user-section'] === 'C' ? 'selected' : '' ?>>C</option>
+                                    </select>
+                                </div>
+                            
+                                <div class="mb-3">
+                                    <label for="gradelevel" class="form-label">Grade Level</label>
+                                    <select class="form-control" id="gradelevel" name="gradelevel" required>
+                                        <option value="" disabled <?= empty($user['data-user-gradelevel']) ? 'selected' : '' ?>>-- Select Grade Level --</option>
+                                        <option value="1" <?= $user['data-user-gradelevel'] === '1' ? 'selected' : '' ?>>1</option>
+                                        <option value="2" <?= $user['data-user-gradelevel'] === '2' ? 'selected' : '' ?>>2</option>
+                                        <option value="3" <?= $user['data-user-gradelevel'] === '3' ? 'selected' : '' ?>>3</option>
+                                        <option value="4" <?= $user['data-user-gradelevel'] === '4' ? 'selected' : '' ?>>4</option>
+                                        <option value="5" <?= $user['data-user-gradelevel'] === '5' ? 'selected' : '' ?>>Irregular</option>
+                                    </select>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="password" class="form-label">Id Number</label>
-                                    <input type="text" id="idn" name="idn" class="form-control" value="2250032">
-                                </div>
-                                
-                               
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control" value="<?= $user['data-user-email'] ?>">
+                                </div> 
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-primary">Update Profile</button>
+                                </div>    
                             </form>
                         </div>
                     </div>

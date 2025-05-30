@@ -20,7 +20,8 @@ class UserModel extends Model
         'data-user-cpassword', 
         'data-user-otp', 
         'data-user-otp-expires', 
-        'data-user-is-verified'
+        'data-user-is-verified',
+        'data-user-role'
     ];
     
 }

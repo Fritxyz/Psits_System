@@ -36,6 +36,13 @@
               </div>
 
               <div class="text-center mt-4">
+                <?php if(session()->get('user_role') == 'Super Admin' || session()->get('user_role') == 'Admin'): ?>
+                  <div class="text-center mb-3">
+                    <a href="<?= base_url('admin/psits/profile') ?>" class="btn btn-primary">Edit Profile</a>
+                    <a href="<?= base_url('admin/psits/change-password') ?>" class="btn btn-secondary">Change Password</a>
+                  </div>
+                <?php endif; ?>          
+
                 <form action="<?= base_url('/logout') ?>" method="post">
                   <?= csrf_field() ?>
                   <button type="submit" class="btn btn-outline-danger">Logout</button>
@@ -48,8 +55,9 @@
     </div>
 
     <!-- Activities / Links -->
-    <div class="row mt-5 text-center g-4">
-      <div class="col-md-4">
+    <?php if(session()->get('user_role') == 'Student') : ?>
+      <div class="row mt-5 text-center g-4">
+      <div class="col-md-6">
         <div class="card h-100 shadow-sm">
           <div class="card-body">
             <h5 class="card-title text-primary">Edit Profile</h5>
@@ -58,25 +66,18 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class="card h-100 shadow-sm">
           <div class="card-body">
-            <h5 class="card-title text-success">Membership Info</h5>
-            <p class="card-text">View your PSITS membership details and benefits.</p>
-            <a href="<?= base_url('/membership') ?>" class="btn btn-outline-success">View</a>
+            <h5 class="card-title text-success"> Change Password</h5>
+            <p class="card-text">Update your password</p>
+            <a href="<?= base_url('change-password/' . $user['data-user-id']) ?>" class="btn btn-outline-success">View</a>
+          </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title text-danger">Events Attended</h5>
-            <p class="card-text">Check your history of events, seminars, and trainings.</p>
-            <a href="<?= base_url('/events/history') ?>" class="btn btn-outline-danger">Check</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php endif; ?>
+    
   </div>
 </section>
 

@@ -33,7 +33,7 @@
                                     <h4>Add Announcement</h4>
                                 </div>
                                 <div class="card-body">
-                                    <form method="post" action="<?= base_url('add-announcement') ?>">
+                                    <form method="post" action="<?= base_url('/admin/psits/announcements/add') ?>">
                                         <div class="mb-3">
                                             <label for="announcementTitle" class="form-label">TITLE </label>
                                             <input type="text" class="form-control" id="announcementTitle" name="title" required>
@@ -71,7 +71,7 @@
                         <div class="col-md-6">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4>Pending Announcements</h4>
+                                    <h4>Announcements</h4>
                                 </div>
                                 <div class="card-body">
                                     <!-- Table of pending announcements -->
@@ -103,8 +103,6 @@
                                                     </td>
                                                     <td><?= $an['created_at'] ?></td>
                                                     <td><?= $an['status'] ?></td>
-        
-                                                
                                                 </tr>
                                             <?php endforeach; ?>
 

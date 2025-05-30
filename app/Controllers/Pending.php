@@ -15,29 +15,22 @@ class Pending  extends BaseController
 
     public function processMembership()
     {
-        helper(['form']);
+        helper(['form', 'audit']);
 
-        if (strlen($this->request->getPost('password')) < 8) {
-            return redirect()->back()->with('error', 'Password must be at least 8 characters long.');
-        }
-        
-        // Validate Password Match (optional, but recommended)
-        if ($this->request->getPost('password') !== $this->request->getPost('cpassword')) {
-            return redirect()->back()->with('error', 'Passwords do not match');
+        if(preg_match('/^(09\d{9}|\+639\d{9})$/', $this->request->getPost('contact')) !== 1) {
+            return redirect()->back()->with('error', 'Invalid contact number format. Please use a valid mobile number.');
         }
 
         $pendingIdnumber = $this->request->getPost('Idnumber');
 
         // Check if the ID number is already in the database
-        $pendingUserModel = new PendingModel();
-        if ($pendingUserModel->where('pending_Idnumber', $pendingIdnumber)->first()) {
+        if ($this->pendingModel->where('pending_Idnumber', $pendingIdnumber)->first()) {
             return redirect()->back()->with('error', 'ID number already exists. Please use a different ID number.');
         }
 
         $data = [
             'pending_lastname'      => $this->request->getPost('lastname'),
             'pending_firstname'     => $this->request->getPost('firstname'),
-            'pending_middlename'    => $this->request->getPost('middlename'),
             'pending_age'           => $this->request->getPost('age'),
             'pending_gender'        => $this->request->getPost('gender'),
             'pending_Idnumber'      => $this->request->getPost('Idnumber'),
@@ -46,14 +39,17 @@ class Pending  extends BaseController
             'pending_address'       => $this->request->getPost('address'),
             'pending_contact'       => $this->request->getPost('contact'),
             'pending_gradelevel'    => $this->request->getPost('gradelevel'),
-            'pending_username'      => $this->request->getPost('username'),
-            'pending_password'      => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
             'pending_gmail'         => $this->request->getPost('gmail'),
         ];
 
+        log_audit(
+            'Membership Registration', 
+            'User ID: ' . session()->get('user_id') . ' applied for membership'
+        );
+
         $this->pendingModel->save($data);
 
-        return redirect()->to('/login')->with('success', 'Registration successfully, Wait for approval!');
+        return redirect()->to('/')->with('success', 'Registration successfully, Wait for approval!');
     }
 }
 

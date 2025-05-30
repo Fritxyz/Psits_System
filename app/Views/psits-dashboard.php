@@ -26,8 +26,12 @@
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
                         <div class="row">
+                            <?php if (session()->getFlashdata('success')): ?>
+                                <div class="alert alert-success">
+                                    <?= esc(session()->getFlashdata('success')) ?>
+                                </div>
+                            <?php endif; ?>
 
-                            <!-- update to fritz -->
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-success text-white mb-4">
                                     <div class="card-body">

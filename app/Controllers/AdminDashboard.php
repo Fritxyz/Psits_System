@@ -21,6 +21,16 @@ class AdminDashboard extends BaseController
 
     public function psitsDashboard()
     {
+
+        // Check if the user is logged in and has the correct role
+        if(!session()->get('is_logged_in')) {
+            return redirect()->to('/login')->with('error', 'Please log in to access this page.');
+        }
+
+        if(session()->get('user_role') !== 'Super Admin' && session()->get('user_role') !== 'Admin') {
+            return redirect()->to('/')->with('error', 'You do not have permission to access this page.');
+        }
+
         $pendingdata['pendingCount'] = $this->pendingModel->countAllResults();
 
         // Fetch grade level data with count

@@ -23,6 +23,18 @@
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active"></li>
                         </ol>
+
+                        <div>
+                            <?php if (session('errors')): ?>
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        <?php foreach (session('errors') as $error): ?>
+                                            <li><?= esc($error) ?></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </div>
+                            <?php endif; ?>
+                        </div>
                        
                         <div class="card mb-4">
                             <div class="card">
@@ -31,8 +43,7 @@
                                     PSITS UPDATE MEMBER
                                 </div>
                                 <div class="card-body">
-                            
-                                    <form action="<?= base_url('/updating') ?>" method="post" >
+                                    <form action="<?= base_url('/admin/psits/members/' . $psits_members['id'] . '/update') ?>" method="post" >
                                         
                                         <div class="modal-body">
                                             <input type="text" name="id" value="<?= $psits_members['id'] ?>" hidden>
@@ -43,10 +54,6 @@
                                             <div class="mb-3">
                                                 <label for="memberName" class="form-label">First Name</label>
                                                 <input type="text" class="form-control" id="memberName" name="member-firstname" value="<?= $psits_members['member-firstname'] ?>" required>
-                                            </div>
-                                            <div class="mb-3">
-                                                <label for="memberName" class="form-label">Middle Name</label>
-                                                <input type="text" class="form-control" id="memberName" name="member-middlename" value="<?= $psits_members['member-middlename'] ?>" required>
                                             </div>
                                             <div class="mb-3">
                                                 <label for="memberName" class="form-label">Age</label>
@@ -61,7 +68,7 @@
 
                                                 <label for="memberGender" class="form-label">Gender</label>
                                                 <select class="form-control" id="member-gender" name="member-gender" required>
-                                                    <option value="" disabled <?= $selectedGender == '' ? 'selected' : '' ?> >Select gender</option>
+                                                    <option value="" disabled <?= $selectedGender == '' ? 'selected' : '' ?>>-- Select Gender --</option>
                                                     <option value="Male" <?= $selectedGender == 'Male' ? 'selected' : '' ?>>Male</option>
                                                     <option value="Female" <?= $selectedGender == 'Female' ? 'selected' : '' ?>>Female</option>
                                                     <option value="Other" <?= $selectedGender == 'Other' ? 'selected' : '' ?>>Other</option>
@@ -73,7 +80,7 @@
 
                                                 <label for="memberCourse" class="form-label">Course</label>
                                                 <select class="form-control" id="member-course" name="member-course" required>
-                                                    <option value="" disabled <?= $selectedCourse == '' ? 'selected' : 'Select course' ?>>Select Course (Example: BS-COMSCI)</option>
+                                                    <option value="" disabled <?= $selectedCourse == '' ? 'selected' : 'Select course' ?>>-- Select Course --</option>
                                                     <option value="BS-COMSCI" <?= $selectedCourse == 'BS-COMSCI' ? 'selected' : '' ?>>BS-COMSCI</option>
                                                     <option value="BS-INFOSYS" <?= $selectedCourse == 'BS-INFOSYS' ? 'selected' : '' ?>>BS-INFOSYS</option>
                                                     <option value="BS-INFOTECH" <?= $selectedCourse == 'BS-INFOTECH' ? 'selected' : '' ?>>BS-INFOTECH</option>
@@ -87,7 +94,7 @@
 
                                                 <label for="memberSection" class="form-label">Section</label>
                                                 <select class="form-control" id="member-section" name="member-section" required>
-                                                    <option value="" disabled <?= $selectedSection == '' ? 'selected' : '' ?>>Select Section (Example: 3A - 3 is the year level and A is the section)</option>
+                                                    <option value="" disabled <?= $selectedSection == '' ? 'selected' : '' ?>>-- Select Section --</option>
                                                     <option value="A" <?= $selectedSection == 'A' ? 'selected' : '' ?>>A</option>
                                                     <option value="B" <?= $selectedSection == 'B' ? 'selected' : '' ?>>B</option>
                                                     <option value="C" <?= $selectedSection == 'C' ? 'selected' : '' ?>>C</option>
@@ -99,12 +106,12 @@
 
                                                 <label for="memberGradeLevel" class="form-label">Grade Level</label>
                                                 <select class="form-control" id="member-gradelevel" name="member-gradelevel" required>
-                                                    <option value="" disabled <?= $selectedGradeLevel == '' ? 'selected' : '' ?>>Select grade level</option>
+                                                    <option value="" disabled <?= $selectedGradeLevel == '' ? 'selected' : '' ?>>-- Select Grade Level --</option>
                                                     <option value="1" <?= $selectedGradeLevel == '1' ? 'selected' : '' ?>>1</option>
                                                     <option value="2" <?= $selectedGradeLevel == '2' ? 'selected' : '' ?>>2</option>
                                                     <option value="3" <?= $selectedGradeLevel == '3' ? 'selected' : '' ?>>3</option>
                                                     <option value="4" <?= $selectedGradeLevel == '4' ? 'selected' : '' ?>>4</option>
-                                                    <option value="5" <?= $selectedGradeLevel == '5' ? 'selected' : '' ?>>5 (if you're a graduate)</option>
+                                                    <option value="5" <?= $selectedGradeLevel == '5' ? 'selected' : '' ?>>Irregular</option>
                                                 </select>
                                             </div>
 
@@ -112,14 +119,32 @@
                                                 <label for="memberContact" class="form-label">Contact</label>
                                                 <input type="text" class="form-control" id="memberContact" name="member-contact" value="<?= $psits_members['member-contact']?>"  required>
                                             </div>
+
                                             <div class="mb-3">
                                                 <label for="memberAddress" class="form-label">Address</label>
                                                 <textarea class="form-control" id="memberAddress" name="member-address" rows="3" required><?= $psits_members['member-address'] ?></textarea>
                                             </div>
+
                                             <div class="mb-3">
                                                 <label for="memberName" class="form-label">Gmail</label>
                                                 <input type="text" class="form-control" id="memberName" name="member-gmail" value="<?= $psits_members['member-gmail'] ?>" required>
                                             </div>
+
+                                           <?php if(session()->get('user_role') == 'Super Admin'): ?>
+                                                <div class="mb-3">
+                                                    <?php $selectedUserRole = $psits_members['data-user-role'] ?>
+
+                                                    <label for="memberGradeLevel" class="form-label">Role</label>
+                                                    <select class="form-control" id="role" name="role">
+                                                        <option value="" disabled <?= $selectedUserRole == '' ? 'selected' : '' ?>>-- Select Role --</option>
+                                                        <option value="Student" <?= $selectedUserRole == 'Student' ? 'selected' : '' ?>>Student</option>
+                                                        <option value="Admin" <?= $selectedUserRole == 'Admin' ? 'selected' : '' ?>>Admin</option>
+                                                        <option value="Super Admin" <?= $selectedUserRole == 'Super Admin' ? 'selected' : '' ?>>Super Admin</option>
+                                                    </select>
+                                                </div>
+                                            <?php else: ?>
+                                                <input type="hidden" name="role" value="<?= $psits_members['data-user-role'] ?>">
+                                            <?php endif; ?>
 
                                         </div>
                                         <div class="d-flex justify-content-end mt-3">

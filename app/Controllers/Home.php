@@ -37,6 +37,21 @@ class Home extends BaseController
             .view('Home/news');
     }
 
+    public function announcements()
+    {
+        // Check if user is logged in
+        if (!session()->get('is_logged_in')) {
+            return redirect()->to('/login')->with('error', 'You must be logged in to view this page.');
+        }
+
+        // Fetch announcements from the model
+        $announcementModel = new AnnouncementModel();
+        $announcements = $announcementModel->where('status', 'APPROVED')->findAll();
+
+        return view('Home/psits-header', ['title' => 'Announcements']) 
+            .view('Home/announcements', ['announcements' => $announcements]);
+    }
+
     public function profile($userId)
     {
         // Check if user is logged in
@@ -67,6 +82,7 @@ class Home extends BaseController
 
     public function updateProfile($userId)
     {
+        helper('audit');
         // Check if user is logged in
         if (!session()->get('is_logged_in')) {
             return redirect()->to('/login')->with('error', 'You must be logged in to update your profile.');
@@ -99,8 +115,58 @@ class Home extends BaseController
             'data-user-email'    => $this->request->getPost('email'),
         ];
 
+        log_audit(
+            'User Profile Updated', 
+            'User with ID ' . $userId . ' updated their profile information.'
+        );
+
         $this->userModel->update($userId, $data);
 
         return redirect()->to('/profile/' . $userId)->with('success', 'Profile updated successfully.');
+    }
+
+    public function changePassword($userId)
+    {
+        // Check if user is logged in
+        if (!session()->get('is_logged_in')) {
+            return redirect()->to('/login')->with('error', 'You must be logged in to change your password.');
+        }
+
+        return view('Home/psits-header', ['title' => 'Change Password']) 
+            .view('Home/change-password', ['userId' => $userId]);
+    }
+
+    public function updatePassword($userId)
+    {
+        helper('audit');
+        // Check if user is logged in
+        if (!session()->get('is_logged_in')) {
+            return redirect()->to('/login')->with('error', 'You must be logged in to change your password.');
+        }
+
+        $validation = $this->validate([
+            'password' => 'required|min_length[8]',
+            'cpassword' => 'required|matches[password]',
+        ]);
+
+        if (!$validation) {
+            return redirect()->to('/change-password/' . $userId)
+                ->withInput()
+                ->with('errors', $this->validator->getErrors());
+        }
+
+        // Update password logic here (not implemented in this example)
+        $newPassword = $this->request->getPost('password');
+
+        $this->userModel->update($userId, [
+            'data-user-password' => password_hash($newPassword, PASSWORD_DEFAULT)
+        ]);
+
+        log_audit(
+            'User Password Changed', 
+            'User with ID ' . $userId . ' changed their password.'
+        );
+
+        return redirect()->to('/profile/' . $userId)->with('success', 'Password changed successfully.');
     }
 }

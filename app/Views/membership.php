@@ -28,17 +28,17 @@
                                     <?php endif; ?>
                                     </div>
                                     <div class="card-body">
-                                        <form action="<?= base_url('/processMembership') ?>" method="post">
+                                        <form action="<?= base_url('/process-membership') ?>" method="post">
                                             <div class="modal-body">
                                                 <!-- Row 1 -->
                                                 <div class="row mb-3">
                                                     <div class="col">
                                                         <label for="name" class="form-label">Lastname:</label>
-                                                        <input type="text" class="form-control" id="name" name="lastname" value="<?= $user['data-user-firstname'] ?>" disabled>
+                                                        <input type="text" class="form-control" id="name" name="lastname" value="<?= $user['data-user-firstname'] ?>" readonly>
                                                     </div>
                                                     <div class="col">
                                                         <label for="dob" class="form-label">Firstname:</label>
-                                                        <input type="text" class="form-control" id="dob" name="firstname" value="<?= $user['data-user-lastname'] ?>" disabled>
+                                                        <input type="text" class="form-control" id="dob" name="firstname" value="<?= $user['data-user-lastname'] ?>" readonly>
                                                     </div>
                                                 </div>
 
@@ -64,27 +64,31 @@
 
                                                     <div class="col">
                                                         <label for="civil-status" class="form-label">Student ID:</label>
-                                                        <input type="text" class="form-control" id="civil-status" name="Idnumber" value="<?= $user['data-user-student-id'] ?>" disabled>
+                                                        <input type="text" class="form-control" id="civil-status" name="Idnumber" value="<?= $user['data-user-student-id'] ?>" readonly>
                                                     </div>
 
                                                     <div class="col">
-                                                        <label for="citizenship" class="form-label">Course:</label>
+                                                        <label for="course" class="form-label">Course:</label>
                                                         <select class="form-control" id="course" name="course" disabled>
                                                             <option value="" disabled>-- Select Course --</option>
-                                                            <option value="<?= $user['data-user-course'] == 'BS-COMSCI' ? 'selected' : '' ?>">BS-COMSCI</option>
-                                                            <option value="<?= $user['data-user-course'] == 'BS-INFOSYS' ? 'selected' : '' ?>">BS-INFOSYS</option>
-                                                            <option value="<?= $user['data-user-course'] == 'BS-INFOTECH' ? 'selected' : '' ?>">BS-INFOTECH</option>
+                                                            <option value="BS-COMSCI" <?= $user['data-user-course'] == 'BS-COMSCI' ? 'selected' : '' ?>>BS-COMSCI</option>
+                                                            <option value="BS-INFOSYS" <?= $user['data-user-course'] == 'BS-INFOSYS' ? 'selected' : '' ?>>BS-INFOSYS</option>
+                                                            <option value="BS-INFOTECH" <?= $user['data-user-course'] == 'BS-INFOTECH' ? 'selected' : '' ?>>BS-INFOTECH</option>
                                                         </select>
+
+                                                        <input type="hidden" name="course" value="<?= $user['data-user-course'] ?>">
                                                     </div>
 
                                                     <div class="col">
                                                         <label for="address" class="form-label">Section:</label>
                                                         <select class="form-control" id="section" name="section" disabled>
                                                             <option value="" disabled>-- Select Section -- </option>
-                                                            <option value="<?= $user['data-user-section'] == 'A' ? 'selected' : '' ?>">A</option>
-                                                            <option value="<?= $user['data-user-section'] == 'B' ? 'selected' : '' ?>">B</option>
-                                                            <option value="<?= $user['data-user-section'] == 'C' ? 'selected' : '' ?>">C</option>
+                                                            <option value="A" <?= $user['data-user-section'] == 'A' ? 'selected' : '' ?>>A</option>
+                                                            <option value="B" <?= $user['data-user-section'] == 'B' ? 'selected' : '' ?>>B</option>
+                                                            <option value="C" <?= $user['data-user-section'] == 'C' ? 'selected' : '' ?>>C</option>
                                                         </select>
+
+                                                        <input type="hidden" name="section" value="<?= $user['data-user-section'] ?>">
                                                     </div>                      
                                                 </div>
 
@@ -97,25 +101,27 @@
                                                     
                                                     <div class="col">
                                                         <label for="contact" class="form-label">Contact Number:</label>
-                                                        <input type="text" class="form-control" id="contact" name="contact" value="" required>
+                                                        <input type="text" class="form-control" id="contact" name="contact" placeholder="ex. (09123456789/+639123456789)" required>
                                                     </div>
                                                     <div class="col">
                                                         <label for="height" class="form-label">Grade Level:</label>
                                                         <select class="form-control" id="gradelevel" name="gradelevel" disabled>
                                                             <option value="" disabled>Select grade level</option>
-                                                            <option value="<?= $user['data-user-gradelevel'] == '1' ? 'selected' : '' ?>">1</option>
-                                                            <option value="<?= $user['data-user-gradelevel'] == '2' ? 'selected' : '' ?>">2</option>
-                                                            <option value="<?= $user['data-user-gradelevel'] == '3' ? 'selected' : '' ?>">3</option>
-                                                            <option value="<?= $user['data-user-gradelevel'] == '4' ? 'selected' : '' ?>">4</option>
-                                                            <option value="<?= $user['data-user-gradelevel'] == '5' ? 'selected' : '' ?>">Irregular</option>
+                                                            <option value="1" <?= $user['data-user-gradelevel'] == '1' ? 'selected' : '' ?>>1</option>
+                                                            <option value="2" <?= $user['data-user-gradelevel'] == '2' ? 'selected' : '' ?>>2</option>
+                                                            <option value="3" <?= $user['data-user-gradelevel'] == '3' ? 'selected' : '' ?>>3</option>
+                                                            <option value="4" <?= $user['data-user-gradelevel'] == '4' ? 'selected' : '' ?>>4</option>
+                                                            <option value="5" <?= $user['data-user-gradelevel'] == '5' ? 'selected' : '' ?>>Irregular</option>
                                                         </select>
+
+                                                        <input type="hidden" name="gradelevel" value="<?= $user['data-user-gradelevel'] ?>">
                                                     </div>
                                                 </div>
 
                                                 <div class="row mb-3">
                                                     <div class="col">
                                                         <label for="height" class="form-label">Gmail:</label>
-                                                        <input type="email" class="form-control" id="height" name="gmail" value="<?= $user['data-user-email'] ?>" disabled>
+                                                        <input type="email" class="form-control" id="height" name="gmail" value="<?= $user['data-user-email'] ?>" readonly>
                                                     </div>
                                                 </div>
 

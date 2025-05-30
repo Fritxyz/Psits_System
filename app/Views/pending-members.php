@@ -12,9 +12,10 @@
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
-        <?php include('partials/header.php'); ?>
+        <?php include 'partials/header.php' ?>
+
         <div id="layoutSidenav">
-            <?php include('partials/header2.php'); ?>
+            <?php include 'partials/header2.php' ?>
             <div id="layoutSidenav_content">
                 <main>
                 <div class="container-fluid px-4">
@@ -50,7 +51,6 @@
                                         <tr>
                                             <th>Last Name</th>
                                             <th>First Name</th>
-                                            <th>Middle Name</th>
                                             <th>Age</th>
                                             <th>Id Number</th>
                                             <th>Gender</th>
@@ -68,7 +68,6 @@
                                         <tr>
                                             <th>Last Name</th>
                                             <th>First Name</th>
-                                            <th>Middle Name</th>
                                             <th>Age</th>
                                             <th>Id Number</th>
                                             <th>Gender</th>
@@ -87,7 +86,6 @@
                                         <tr>
                                             <td><?= $pendingmember['pending_lastname'] ?></td>
                                             <td><?= $pendingmember['pending_firstname'] ?></td>
-                                            <td><?= $pendingmember['pending_middlename'] ?></td>
                                             <td><?= $pendingmember['pending_age'] ?></td>
                                             <td><?= $pendingmember['pending_Idnumber'] ?></td>
                                             <td><?= $pendingmember['pending_gender'] ?></td>
@@ -100,8 +98,14 @@
                                             
 
                                             <td>
-                                                <a href="/#/<?=$pendingmember['id']?>" class="btn btn-danger btn-sm">Reject</a>
-                                                <a href="/approve/<?=$pendingmember['id']?>" class="btn btn-primary btn-sm">Approve</a>
+                                                 <form action="<?= base_url('/admin/psits/pending-members/reject/' . $pendingmember['id']) ?>" method="post" style="display:inline;">
+                                                    <?= csrf_field() ?>
+                                                    <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Reject</button>
+                                                </form>
+                                               <form action="<?= base_url('/admin/psits/pending-members/approve/' . $pendingmember['id']) ?>" method="post" style="display:inline;">
+                                                    <?= csrf_field() ?>
+                                                    <button type="submit" class="btn btn-primary btn-sm">Approve</button>
+                                                </form>
                                             </td>
                                         </tr>
                                         <?php endforeach; ?>
@@ -115,7 +119,7 @@
                         </div>
                     </div>
                 </main>
-                <?php include('partials/footer.php'); ?>
+                <?php include 'partials/footer.php' ?>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>

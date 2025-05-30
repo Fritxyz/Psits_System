@@ -25,6 +25,12 @@ class Auth extends BaseController
 
     public function processLogin()
     {  
+        if (session()->get('is_logged_in')) {
+            return redirect()->to('/');
+        }
+
+        helper('audit');
+
         // Process login form submission
         $email = $this->request->getPost('email');
         $password = $this->request->getPost('password');
@@ -68,6 +74,9 @@ class Auth extends BaseController
                 ->withInput()
                 ->with('error', 'Invalid password or Email');
         }
+
+        // Log the login attempt
+        
         
         // Set session data
         $session = session();
@@ -79,7 +88,14 @@ class Auth extends BaseController
             'user_role' => $user['data-user-role']
         ];
 
+        
+
         $session->set($sessionData);
+
+        log_audit(
+            'User logged in',
+            'User with ID ' . $user['data-user-id'] . ' logged in successfully.'
+        );
         
         return redirect()->to('/');
     }
@@ -99,7 +115,20 @@ class Auth extends BaseController
 
     public function logout()
     {
+        if (!session()->get('is_logged_in')) {
+            return redirect()->to('/login')->with('error', 'You are not logged in.');
+        }
+
+        helper('audit');
+
         $session = session();
+
+        // Log the logout action
+        log_audit(
+            'User logged out',
+            'User with ID ' . $session->get('user_id') . ' logged out successfully.'
+        );
+        
         $session->destroy();
         
         return redirect()->to('/login');

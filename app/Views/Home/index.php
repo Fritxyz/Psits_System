@@ -1,14 +1,16 @@
-<div class="card-header">
-    <?php if (session()->getFlashdata('errors')): ?>
-        <div class="alert alert-danger">
-            <ul>
-                <?php foreach (session()->getFlashdata('errors') as $error): ?>
-                    <li><?= esc($error) ?></li>
-                <?php endforeach; ?>
-            </ul>
+  <div>
+    <?php if (session()->getFlashdata('success')): ?>
+        <div class="alert alert-success" id="successMessage">
+            <?= esc(session()->getFlashdata('success')) ?>
         </div>
     <?php endif; ?>
-</div>  
+
+    <?php if ($error = session()->getFlashdata('error')): ?>
+      <div class="alert alert-danger" id="errorMessage">
+          <?= is_array($error) ? implode('<br>', array_map('esc', $error)) : esc($error) ?>
+      </div>
+    <?php endif; ?>
+  </div>
   
   <!-- Hero Section -->
   <section class="position-relative text-white text-center hero-section">

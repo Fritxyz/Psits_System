@@ -58,7 +58,6 @@
 
                                             <th>Last Name</th>
                                             <th>First Name</th>
-                                            <th>Middle Name</th>
                                             <th>Age</th>
                                             <th>Id Number</th>
                                             <th>Gender</th>
@@ -68,6 +67,9 @@
                                             <th>Contact</th>
                                             <th>Address</th>
                                             <th>Gmail</th>
+                                            <?php if(session()->get('user_role') == 'Super Admin'): ?>
+                                                <th>User Role</th>
+                                            <?php endif; ?>
                                             <th>Action</th>
                                         </tr>
                                     </thead>
@@ -85,7 +87,6 @@
 
                                             <th>Last Name</th>
                                             <th>First Name</th>
-                                            <th>Middle Name</th>
                                             <th>Age</th>
                                             <th>Id Number</th>
                                             <th>Gender</th>
@@ -95,6 +96,9 @@
                                             <th>Contact</th>
                                             <th>Address</th>
                                             <th>Gmail</th>
+                                            <?php if(session()->get('user_role') == 'Super Admin'): ?>
+                                                <th>User Role</th>
+                                            <?php endif; ?>
                                             <th>Action</th>
                                         </tr>
                                     </tfoot>
@@ -104,7 +108,6 @@
                                         <tr>
                                             <td><?= $member['member-lastname'] ?></td>
                                             <td><?= $member['member-firstname'] ?></td>
-                                            <td><?= $member['member-middlename'] ?></td>
                                             <td><?= $member['member-age'] ?></td>
                                             <td><?= $member['member-id-number'] ?></td>
                                             <td><?= $member['member-gender'] ?></td>
@@ -114,17 +117,27 @@
                                             <td><?= $member['member-contact'] ?></td>
                                             <td><?= $member['member-address'] ?></td>
                                             <td><?= $member['member-gmail'] ?></td>
-   
+
+                                            <?php if(session()->get('user_role') == 'Super Admin'): ?>
+                                                <td>
+                                                    <?= $member['data-user-role']?>
+                                                </td>
+                                            <?php endif; ?>
+                                            
+                                                
                                             <td>
-                                                <a href="/delete/<?=$member['id']?>" class="btn btn-danger btn-sm">Delete</a>
-                                                <a href="/updateMember/<?=$member['id']?>" class="btn btn-primary btn-sm">Update</a>
+                                                <form action="<?= base_url('/admin/psits/members/delete/' . $member['id']) ?>" method="post" style="display:inline;">
+                                                    <?= csrf_field() ?>
+                                                    <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</button>
+                                                </form>
+                                                <a href="/admin/psits/members/<?=$member['id']?>" class="btn btn-primary btn-sm">Update</a>
                                             </td>
                                         </tr>
                                         <?php endforeach; ?>
                                     </tbody>
                                 </table>
 
-                                <a href="/addMember" class="btn btn-success mt-3">Add New Member</a>
+                                <a href="/admin/psits/members/add" class="btn btn-success mt-3">Add New Member</a>
                             </div>
                         </div>
                     </div>

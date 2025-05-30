@@ -47,12 +47,6 @@
           <a class="nav-link" href="<?= base_url('/annoucements') ?>">Announcements</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('/events') ?>">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('/seminars') ?>">Seminars</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="<?= base_url('/apply-membership') ?>">Apply PSITS Membership</a>
         </li>
       <?php endif; ?>
